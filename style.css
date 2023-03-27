@@ -3,7 +3,6 @@ body{
   height: auto;
   font-family: 'Zodiak', serif;
   font-family: 'Bebas Neue', sans-serif;
-  background-color: #262626;
 }
 
 .logo{
@@ -33,7 +32,7 @@ text-align: left;
 }
 
 #myBtn:hover {
-  background-color: #ff7ab1;
+  background-color: #CD5888;
 }
 
 
@@ -44,15 +43,16 @@ text-align: left;
   margin-top: 0;
   padding-top: 80px;
   width: 15%;
-  background-color: #262626;
+  background-color: #ffffff;
   position: fixed;
   height: 100%;
   overflow: auto;
+  box-shadow: 1px 0 10px #D4D4D4;
 }
 
 .sidebar a {
   display: block;
-  color: white;
+  color: black;
   padding:24px;
   text-decoration: none;
   text-align: center;
@@ -61,12 +61,12 @@ text-align: left;
 }
 
 .sidebar a.active {
-  color: #ff7ab1;
+  color: #CD5888;
   font-weight: bold;
 }
 
 .sidebar a:hover:not(.active) {
-  color: white;
+  color: black;
   opacity:50%;
 }
 
@@ -74,22 +74,22 @@ text-align: left;
 
 a:link{
   text-decoration: none;
-  color:white;
+  color:black;
 }
 
 a:hover{
   text-decoration: none;
-  color: #ff7ab1;
+  color: #CD5888;
 }
 
 a:visited{
   text-decoration: none;
-  color:white;
+  color:black;
 }
 
 a:active{
   text-decoration: none;
-  color:white;
+  color:black;
 }
 
 .menucollapsed
@@ -154,18 +154,18 @@ a:active{
   font-size: 24px;
   line-height: 30px;
   position: relative;
-  color:#ffffff;
+
 }
 
 /* About */
 
 .experience{
-  color: #af77ff;
+  color: #5D3891;
   margin:10px 0 0 0;
 }
 
 .experience-date{
-  color:#ffffff;
+  color:grey;
   font-family: 'zodiak', serif;
   margin-bottom:0px;
 }
@@ -174,27 +174,24 @@ a:active{
   margin:10px 0;
   font-weight: regular;
   font-size: 20px;
-  color:#ffffff;
-
 }
 
 .experience-history{
   font-size: 24px;
   width: auto;
   margin:10px 0;
-  color:#ff7ab1;
+  color:#CD5888;
 }
 
 .experience-description{
   font-size: 12px;
   font-family: 'zodiak', serif;
   width:auto;
-  padding-bottom:20px;
+  padding:10px;
   margin: 0px;
   width: 80%;
   text-align: left;
-  color:#ffffff;
-
+  background-color: #FFFBF3;
 }
 
 .experience-list {
@@ -232,7 +229,7 @@ left:5px;
   display: inline-block;
   font-size: 24px;
   margin:0;
-  color:#ff7ab1;
+  color:#CD5888;
 }
 
 #imgclick{
@@ -246,7 +243,7 @@ left:5px;
 .button-interaction{
   position:relative;
   padding:10px 20px;
-  background-color: #ff7ab1;
+  background-color: #CD5888;
   border:none;
   border-radius: 5px;
   color:white;
@@ -284,17 +281,19 @@ left:5px;
 .portfoliocard1{
   width:300px;
   height:auto;
-  padding:10px;
-  display: inline-block;
-  border-radius: 1px;
+padding-bottom:10px;
+    display: inline-block;
+  border-radius: 10px;
   margin:10px 10px;
-  position: relative;
-  /* box-shadow: 0px 0px 1px white; */
+  position: relative;;
+  box-shadow: 0px 0px 1px #717171;
 }
 
 .portfoliocard1:hover{
-  background-color: #4F4F4F;
-  border-radius: 5px;
+  transition: 0.2s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px  #5D3891;
+  color: #CD5888;
 }
 
 
@@ -394,6 +393,8 @@ color:#5D3891;
   font-family: 'zodiak', sans-serif;
   margin-bottom:10PX;
   width:80%;
+  padding:10px;
+  background-color: #FFFBF3;
 }
 
 .iconlist1{
@@ -411,7 +412,6 @@ color:#5D3891;
   font-size: 14px;
   position: relative;
   bottom:5px;
-  color:#ffffff;
 }
 
 .overall-numbers{
@@ -474,7 +474,7 @@ color:#5D3891;
   float: left;
   position: relative;
   margin:10px 5px 0px;
-  border: 1px solid #f6f6f6;
+  border: 4px solid #f6f6f6;
   line-height: auto;
 }
 
@@ -483,7 +483,6 @@ color:#5D3891;
   font-weight: bold;
   margin-top:20px;
   font-family: 'Zodiak', serif;
-  color:#ffffff;
 }
 
 .skillslist1-description{
@@ -492,7 +491,6 @@ color:#5D3891;
   top:20px;
   right:20px;
   font-size: 16px;
-  color:#ffffff;
 }
 
 .skill-subhead{
@@ -530,7 +528,7 @@ color:#5D3891;
   }
 
   .sidebar a {
-    color: white;
+    color: black;
     display: inline-block;
     height: auto;
     padding:20px;
@@ -560,7 +558,7 @@ color:#5D3891;
 
   a.portfoliocard1 {
     margin-bottom:10px;
-    box-shadow: 0px 0px 1px white;
+    box-shadow: 0px 0px 1px #717171;
     width:300px;
   }
 
@@ -597,7 +595,7 @@ color:#5D3891;
     margin-bottom:30px;
     width:70%;
     margin:0 auto 30px auto;
-    /* padding:10px; */
+    padding:10px;
 
   }
 
@@ -671,11 +669,10 @@ color:#5D3891;
     font-size: 12px;
     font-family: 'zodiak', sans-serif;
     /* width:80%; */
-    padding:20px 0px 20px 0px;
+    padding:20px 10px 20px 0px;
     line-height: 20px;
     margin:0 auto;
     text-align: center;
-    color:#ffffff;
   }
 
   .experience-list{
@@ -781,7 +778,7 @@ color:#5D3891;
   }
 
   .sidebar a {
-    color: white;
+    color: black;
     display: inline-block;
     height: auto;
     padding:20px;
@@ -815,7 +812,7 @@ color:#5D3891;
     margin-bottom:30px;
     width:80%;
     margin:0 auto 30px auto;
-    /* padding:10px; */
+    padding:10px;
   }
 
   .ratingtext{
@@ -831,7 +828,7 @@ color:#5D3891;
 
   a.portfoliocard1 {
     margin-bottom:10px;
-    box-shadow: 0px 0px 1px white;
+    box-shadow: 0px 0px 1px #717171;
   }
 
   .portfoliocards{
@@ -929,8 +926,6 @@ color:#5D3891;
       line-height: 20px;
       margin:10px auto;
       text-align: center;
-      color:#ffffff;
-
     }
 
     .button-interaction{

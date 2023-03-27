@@ -534,6 +534,7 @@ color:#5D3891;
     position: fixed;
     text-align: center;
     z-index: 100;
+    background-color:#262626;
   }
 
   .sidebar a {
@@ -785,6 +786,8 @@ color:#5D3891;
     text-align: center;
     z-index:100;
     display: block;
+    background-color:#262626;
+
   }
 
   .sidebar a {

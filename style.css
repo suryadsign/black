@@ -28,19 +28,23 @@ text-align: left;
   bottom: 20px;
   right: 20px;
   z-index: 200;
-  font-size: 18px;
-  border: none;
-  outline: none;
+  border: 2px solid white;
   background-color: black;
   color: white;
   cursor: pointer;
-  padding: 10px 12px;
-  border-radius: 50px;
-
+  padding:10px 12px;
+  border-radius: 40px;
 }
+
 
 #myBtn:hover {
   background-color: #ff7ab1;
+}
+
+#myBtn img {
+  width:30px;
+  height:30px;
+  border-radius:30px;
 }
 
 
@@ -521,6 +525,7 @@ color:#5D3891;
   font-size:10px;
   font-family: 'Zodiak', serif;
   text-align: center;
+  color:white;
 }
 
 
@@ -767,6 +772,7 @@ color:#5D3891;
     font:12px;
     font-family: 'Zodiak', serif;
     text-align: center;
+    color:#ffffff;
 
   }
 
@@ -961,6 +967,8 @@ color:#5D3891;
       font-size:10px;
       font-family: 'Zodiak', serif;
       text-align: center;
+      color:#ffffff;
+
     }
 
     .video{

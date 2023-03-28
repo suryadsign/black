@@ -610,10 +610,12 @@ color:#5D3891;
     text-align: center;
     margin-bottom:30px;
     width:auto;
-
     margin:0 auto 30px auto;
     /* padding:10px; */
+  }
 
+  .iconlist1{
+    margin:0px 10px;
   }
 
   .ratingtext{
@@ -623,8 +625,8 @@ color:#5D3891;
   }
 
   .icon{
-    width:30px;
-    height:30px;
+    width:40px;
+    height:40px;
   }
 
   .numbers-list1{
@@ -689,6 +691,7 @@ color:#5D3891;
     padding:0px 0px 0px 0px;
     line-height: 20px;
     margin:0 auto;
+    margin-bottom:30px;
     text-align: center;
     color:#ffffff;
   }

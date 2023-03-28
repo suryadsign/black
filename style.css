@@ -403,17 +403,17 @@ color:#5D3891;
 .iconlist{
   text-align: left;
   font-family: 'zodiak', sans-serif;
-  margin-bottom:10PX;
+  margin-bottom:20px;
   width:80%;
 }
 
 .iconlist1{
-  margin:10px 10px;
+  margin:0px 10px;
 }
 
 .icon{
-  width:20px;
-  height:20px;
+  width:50px;
+  height:50px;
 }
 
 .ratingtext{
@@ -421,7 +421,7 @@ color:#5D3891;
   margin:5px;
   font-size: 14px;
   position: relative;
-  bottom:5px;
+  bottom:20px;
   color:#ffffff;
 }
 
@@ -608,7 +608,8 @@ color:#5D3891;
   .iconlist{
     text-align: center;
     margin-bottom:30px;
-    width:70%;
+    width:auto;
+
     margin:0 auto 30px auto;
     /* padding:10px; */
 
@@ -617,12 +618,12 @@ color:#5D3891;
   .ratingtext{
     font-size: 12px;
     position: relative;
-    bottom:5px;
+    bottom:15px;
   }
 
   .icon{
-    width:16px;
-    height:16px;
+    width:30px;
+    height:30px;
   }
 
   .numbers-list1{
@@ -684,7 +685,7 @@ color:#5D3891;
     font-size: 12px;
     font-family: 'zodiak', sans-serif;
     /* width:80%; */
-    padding:20px 0px 20px 0px;
+    padding:0px 0px 0px 0px;
     line-height: 20px;
     margin:0 auto;
     text-align: center;
@@ -837,12 +838,12 @@ color:#5D3891;
   .ratingtext{
     font-size: 12px;
     position: relative;
-    bottom:5px;
+    bottom:15px;
   }
 
   .icon{
-    width:16px;
-    height:16px;
+    width:40px;
+    height:40px;
   }
 
   a.portfoliocard1 {
@@ -941,7 +942,7 @@ color:#5D3891;
       font-size: 12px;
       font-family: 'zodiak', sans-serif;
       width:90%;
-      padding:20px 10px 20px 0px;
+      padding:0px 0px 0px 0px;
       line-height: 20px;
       margin:10px auto;
       text-align: center;

@@ -14,8 +14,8 @@ body{
 }
 
 .logo{
-width:60px;
-text-align: left;
+  width:60px;
+  text-align: left;
 }
 
 .logo a{
@@ -63,8 +63,8 @@ text-align: left;
 }
 
 @keyframes sidebar_d {
-0%  {left:-200px;}
-100% {left:0px;}
+  0%  {left:-200px;}
+  100% {left:0px;}
 }
 
 .sidebar a {
@@ -183,9 +183,8 @@ a:active{
 
 .surya{
   margin:20px 0;
-  animation-name:suryanarayanan;
-  animation-duration: 1s;
-  animation-delay:2s;
+  animation: 2s anim-lineUp ease-out infinite;
+  animation-delay: 1s;
   font-weight:bold;
   font-size:42px;
   color:#af77ff;
@@ -193,8 +192,23 @@ a:active{
   letter-spacing:5px;
 }
 
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
 .designer{
   width:auto;
+  animation: 2s anim-lineUp ease-out infinite;
+  animation-delay: 1s;
   font-size: 24px;
   line-height: 30px;
   position: relative;
@@ -259,15 +273,15 @@ a:active{
 
 #portfolioredirect
 {
-position: relative;
-margin:10px 0;
-display: inline;
+  position: relative;
+  margin:10px 0;
+  display: inline;
 }
 
 #portfolioredirect:hover
 {
-position: relative;
-left:5px;
+  position: relative;
+  left:5px;
 }
 
 
@@ -365,9 +379,9 @@ left:5px;
 }
 
 .portfoliodesigns {
-font-size:28px;
-font-weight:bold;
-color:#5D3891;
+  font-size:28px;
+  font-weight:bold;
+  color:#5D3891;
 }
 
 
@@ -492,8 +506,8 @@ color:#5D3891;
 }
 
 .list1-description{
-color:white;
-letter-spacing: 3px;
+  color:white;
+  letter-spacing: 3px;
 
 }
 
@@ -594,8 +608,8 @@ letter-spacing: 3px;
   }
 
   @keyframes sidebar_m {
-  0%  {top:-100px;}
-  100% {top:0px;}
+    0%  {top:-100px;}
+    100% {top:0px;}
   }
 
   .sidebar a {
@@ -614,18 +628,18 @@ letter-spacing: 3px;
   }
 
   @keyframes menu_item {
-  0%  {top:-200px;}
-  100% {top:0px;}
+    0%  {top:-200px;}
+    100% {top:0px;}
   }
 
 
   .logodiv{
-  width: 40px;
-  margin: 0 auto 0 auto;
+    width: 40px;
+    margin: 0 auto 0 auto;
   }
 
   .logo{
-  width:40px;
+    width:40px;
   }
 
   .workspace{
@@ -660,8 +674,8 @@ letter-spacing: 3px;
   }
 
   .portfoliodesigns {
-  width:80%;
-  margin:0 auto 10px auto;
+    width:80%;
+    margin:0 auto 10px auto;
   }
 
   .video{
@@ -705,7 +719,7 @@ letter-spacing: 3px;
   }
 
   .list1-description{
-  color:white;
+    color:white;
   }
 
   .skills-numbers{
@@ -748,7 +762,7 @@ letter-spacing: 3px;
   }
 
   .list1-description{
-  color:white;
+    color:white;
   }
 
   .heading-home{
@@ -802,9 +816,8 @@ letter-spacing: 3px;
 
   .surya{
     margin:20px 0;
-    animation-name:suryanarayanan;
-    animation-duration: 1s;
-    animation-delay:2s;
+    animation: 2s anim-lineUp ease-out infinite;
+    animation-delay: 1s;
     font-weight:bold;
     font-size:42px;
     color:#af77ff;
@@ -813,115 +826,115 @@ letter-spacing: 3px;
   }
 
   @suryanarayanan{
-  0% {}
+    0% {}
+    }
+
+    .designer{
+      width:auto;
+      font-size: 18px;
+      line-height: 30px;
+      position: relative;
+      margin:10px 0;
+      color:#ffffff;
+    }
+
+    .experience-history{
+      margin:20px auto 0px auto;
+      font-size:24px;
+    }
+
+    .name-head{
+      left:0px;
+      top:0px;
+      width:auto;
+      position: relative;
+    }
+
+    .contact-listview{
+      float:none;
+      margin-bottom: 40px;
+    }
+
+    .socialmedia-listview{
+      float:left;
+      margin-bottom: 20px;
+    }
+
+    .UX-banner{
+      width:90%;
+      height:auto;
+    }
+
+
+    .button-interaction{
+      margin:30px auto 30px auto;
+    }
+
+    .figma{
+      width:360px;
+      height:600px;
+      width: 100%;
+      margin:0 auto;
+    }
+    .vl{
+      opacity:100%;
+    }
+
+    .copyright{
+      width: 80%;
+      margin:20px auto 20px auto;
+      font:12px;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      color:#ffffff;
+
+    }
+
   }
 
-  .designer{
-    width:auto;
-    font-size: 18px;
-    line-height: 30px;
-    position: relative;
-    margin:10px 0;
-    color:#ffffff;
-  }
-
-  .experience-history{
-    margin:20px auto 0px auto;
-    font-size:24px;
-  }
-
-  .name-head{
-    left:0px;
-    top:0px;
-    width:auto;
-    position: relative;
-  }
-
-  .contact-listview{
-    float:none;
-    margin-bottom: 40px;
-  }
-
-  .socialmedia-listview{
-    float:left;
-    margin-bottom: 20px;
-  }
-
-  .UX-banner{
-    width:90%;
-    height:auto;
-  }
-
-
-  .button-interaction{
-    margin:30px auto 30px auto;
-  }
-
-  .figma{
-    width:360px;
-    height:600px;
-    width: 100%;
-    margin:0 auto;
-  }
-  .vl{
-    opacity:100%;
-  }
-
-  .copyright{
-    width: 80%;
-    margin:20px auto 20px auto;
-    font:12px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color:#ffffff;
-
-  }
-
-}
 
 
 
 
+  /* Viewport */
+  @media screen and (min-width:540px)and (max-width:800px){
+    .sidebar {
+      padding-top:20px;
+      width:100%;
+      height: auto;
+      position: fixed;
+      text-align: center;
+      z-index:100;
+      animation-name: sidebar_t;
+      animation-duration: 1s;
+      display: block;
+      background-color:#262626;
+    }
 
-/* Viewport */
-@media screen and (min-width:540px)and (max-width:800px){
-  .sidebar {
-    padding-top:20px;
-    width:100%;
-    height: auto;
-    position: fixed;
-    text-align: center;
-    z-index:100;
-    animation-name: sidebar_t;
-    animation-duration: 1s;
-    display: block;
-    background-color:#262626;
-  }
+    @keyframes sidebar_t {
+      0%  {top:-100px;}
+      100% {top:0px;}
+    }
 
-  @keyframes sidebar_t {
-  0%  {top:-100px;}
-  100% {top:0px;}
-  }
+    .sidebar a {
+      color: white;
+      display: inline-block;
+      height: auto;
+      padding:20px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 16px;
+      margin:0px 10px;
+      letter-spacing: 2px;
+      position: relative;
+    }
 
-  .sidebar a {
-    color: white;
-    display: inline-block;
-    height: auto;
-    padding:20px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 16px;
-    margin:0px 10px;
-    letter-spacing: 2px;
-    position: relative;
-  }
-
-  .workspace{
-    width: 100%;
-    margin:100px auto 0 auto;
-    text-align: center;
-    animation-duration:1s;
-  }
+    .workspace{
+      width: 100%;
+      margin:100px auto 0 auto;
+      text-align: center;
+      animation-duration:1s;
+    }
 
 
     @keyframes box {
@@ -930,98 +943,98 @@ letter-spacing: 3px;
     }
 
 
-  .logodiv{
-  text-align: center;
-  width: 65%;
-  margin: 0 auto 0 auto;
-  }
+    .logodiv{
+      text-align: center;
+      width: 65%;
+      margin: 0 auto 0 auto;
+    }
 
-  .logo{
-  width:40px;
-  text-align: center;
-  }
+    .logo{
+      width:40px;
+      text-align: center;
+    }
 
-  .iconlist{
-    text-align: center;
-    margin-bottom:30px;
-    width:80%;
-    margin:0 auto 30px auto;
-    /* padding:10px; */
-  }
+    .iconlist{
+      text-align: center;
+      margin-bottom:30px;
+      width:80%;
+      margin:0 auto 30px auto;
+      /* padding:10px; */
+    }
 
-  .ratingtext{
-    font-size: 12px;
-    position: relative;
-    bottom:15px;
-  }
+    .ratingtext{
+      font-size: 12px;
+      position: relative;
+      bottom:15px;
+    }
 
-  .icon{
-    width:40px;
-    height:40px;
-  }
+    .icon{
+      width:40px;
+      height:40px;
+    }
 
-  a.portfoliocard1 {
-    margin-bottom:10px;
-    box-shadow: 0px 0px 1px white;
-  }
+    a.portfoliocard1 {
+      margin-bottom:10px;
+      box-shadow: 0px 0px 1px white;
+    }
 
-  .portfoliocards{
-    margin:30px 0;
-  }
+    .portfoliocards{
+      margin:30px 0;
+    }
 
-  .overall-numbers{
-    margin:30px auto;
-  }
+    .overall-numbers{
+      margin:30px auto;
+    }
 
 
-  .skills-numbers{
-    width: 80%;
-    margin:0 auto 0 auto;
-  }
+    .skills-numbers{
+      width: 80%;
+      margin:0 auto 0 auto;
+    }
 
-  .skills-list1{
-    width:30%;
-    margin:10px 20px;
-    position: relative;
+    .skills-list1{
+      width:30%;
+      margin:10px 20px;
+      position: relative;
 
-  }
+    }
 
-  .UX-banner{
-    width:80%;
-    height:auto;
-  }
+    .UX-banner{
+      width:80%;
+      height:auto;
+    }
 
-  .bannerimages{
-    width:80%;
-    height: auto;
-  }
+    .bannerimages{
+      width:80%;
+      height: auto;
+    }
 
-  .hl {
-    width:80%;
-    margin:0 auto 0 auto;
-    height:2px;
-    background: black;
-    opacity: 10%;
-    height: 2px;
-  }
+    .hl {
+      width:80%;
+      margin:0 auto 0 auto;
+      height:2px;
+      background: black;
+      opacity: 10%;
+      height: 2px;
+    }
 
-  .skill-subhead{
-    width: 100%;
-    margin:30px auto;
+    .skill-subhead{
+      width: 100%;
+      margin:30px auto;
 
-  }
+    }
 
-  .skills{
-    margin:0px;
-  }
+    .skills{
+      margin:0px;
+    }
 
-  .numbers-list1{
-    width: 80%;
-    margin: 20px auto 0 auto;
+    .numbers-list1{
+      width: 80%;
+      margin: 20px auto 0 auto;
     }
 
     .list1-description{
-    color:white;
+      color:white;
     }
 
     .heading-home{
@@ -1037,9 +1050,8 @@ letter-spacing: 3px;
 
     .surya{
       margin:20px 0;
-      animation-name:suryanarayanan;
-      animation-duration: 1s;
-      animation-delay:2s;
+      animation: 2s anim-lineUp ease-out infinite;
+      animation-delay: 1s;
       font-weight:bold;
       font-size:42px;
       color:#af77ff;
@@ -1115,12 +1127,12 @@ letter-spacing: 3px;
     }
 
     .logodiv{
-    width:40px;
-    height: auto;
-    margin: 0 auto 0 auto;
+      width:40px;
+      height: auto;
+      margin: 0 auto 0 auto;
     }
 
     .logo{
-    width:40px;
+      width:40px;
     }
   }

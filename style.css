@@ -656,7 +656,7 @@ a:active{
   }
 
   .surya{
-    margin:0px 0 0 0;
+    margin:30px 0 0 0;
     animation: 2s anim-lineUp ease-out infinite;
     animation-delay: 1s;
     font-weight:bold;

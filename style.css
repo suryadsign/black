@@ -59,7 +59,6 @@ text-align: left;
   height: 100%;
   animation-name: sidebar_d;
   animation-duration: 1s;
-  visibility: none;
   overflow: auto;
 }
 
@@ -179,6 +178,27 @@ a:active{
   font-size: 24px;
   line-height: 30px;
   position: relative;
+  color:#ffffff;
+}
+
+.surya{
+  margin:20px 0;
+  animation-name:suryanarayanan;
+  animation-duration: 1s;
+  animation-delay:2s;
+  font-weight:bold;
+  font-size:42px;
+  color:#af77ff;
+  margin:30px 0 0px 0;
+  letter-spacing:5px;
+}
+
+.designer{
+  width:auto;
+  font-size: 24px;
+  line-height: 30px;
+  position: relative;
+  margin:10px 0;
   color:#ffffff;
 }
 
@@ -600,8 +620,7 @@ letter-spacing: 3px;
 
 
   .logodiv{
-  text-align: left;
-  width: 80%;
+  width: 40px;
   margin: 0 auto 0 auto;
   }
 
@@ -781,9 +800,29 @@ letter-spacing: 3px;
     font-size:12px;
   }
 
-.surya{
+  .surya{
     margin:20px 0;
-    
+    animation-name:suryanarayanan;
+    animation-duration: 1s;
+    animation-delay:2s;
+    font-weight:bold;
+    font-size:42px;
+    color:#af77ff;
+    margin:50px 0 10px 0;
+    letter-spacing:5px;
+  }
+
+  @suryanarayanan{
+  0% {}
+  }
+
+  .designer{
+    width:auto;
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+    margin:10px 0;
+    color:#ffffff;
   }
 
   .experience-history{
@@ -881,7 +920,15 @@ letter-spacing: 3px;
     width: 100%;
     margin:100px auto 0 auto;
     text-align: center;
+    animation-duration:1s;
   }
+
+
+    @keyframes box {
+      0%   {left:-100px;}
+      100% {left:0px;}
+    }
+
 
   .logodiv{
   text-align: center;
@@ -916,11 +963,6 @@ letter-spacing: 3px;
   a.portfoliocard1 {
     margin-bottom:10px;
     box-shadow: 0px 0px 1px white;
-  }
-
-  @keyframes box {
-    0%   {left:-100px;}
-    100% {left:0px;}
   }
 
   .portfoliocards{
@@ -993,8 +1035,16 @@ letter-spacing: 3px;
       margin:10px auto;
     }
 
-    .heading-name .surya{
+    .surya{
       margin:20px 0;
+      animation-name:suryanarayanan;
+      animation-duration: 1s;
+      animation-delay:2s;
+      font-weight:bold;
+      font-size:42px;
+      color:#af77ff;
+      margin:50px 0 10px 0;
+      letter-spacing:5px;
     }
 
     .name-head{
@@ -1065,8 +1115,8 @@ letter-spacing: 3px;
     }
 
     .logodiv{
-    text-align: left;
-    width: 65%;
+    width:40px;
+    height: auto;
     margin: 0 auto 0 auto;
     }
 

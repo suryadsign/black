@@ -57,7 +57,15 @@ text-align: left;
   /* background-color: #262626; */
   position: fixed;
   height: 100%;
+  animation-name: sidebar_d;
+  animation-duration: 1s;
+  visibility: none;
   overflow: auto;
+}
+
+@keyframes sidebar_d {
+0%  {left:-200px;}
+100% {left:0px;}
 }
 
 .sidebar a {
@@ -124,7 +132,14 @@ a:active{
   height:auto;
   position:relative;
   float: right;
+  animation-name: workspace;
+  animation-duration: 2s;
   text-align: left;
+}
+
+@keyframes workspace{
+  0% {bottom:-1000px;}
+  100% {bottom:0px;}
 }
 
 .heading-home{
@@ -293,7 +308,7 @@ left:5px;
 .portfoliocard1{
   width:300px;
   height:auto;
-padding-bottom: 10px;
+  padding-bottom: 10px;
   display: inline-block;
   border-radius: 10px;
   margin:10px 10px;
@@ -301,8 +316,10 @@ padding-bottom: 10px;
   box-shadow: 0px 0px 1px black;
 }
 
+
 .portfoliocard1:hover{
   background-color: #4F4F4F;
+  font-weight: bold;
   border-radius: 10px;
   transition: 0.2s;
   box-shadow: 0px 0px 30px black;
@@ -315,7 +332,7 @@ padding-bottom: 10px;
   margin:10px 0;
   line-height: 30px;
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: 'Poppins', sans-serif;
 
 
@@ -551,7 +568,14 @@ letter-spacing: 3px;
     position: fixed;
     text-align: center;
     z-index: 100;
+    animation-name: sidebar_m;
+    animation-duration: 1s;
     background-color:#262626;
+  }
+
+  @keyframes sidebar_m {
+  0%  {top:-100px;}
+  100% {top:0px;}
   }
 
   .sidebar a {
@@ -563,7 +587,15 @@ letter-spacing: 3px;
     text-align: center;
     font-size: 16px;
     margin:0px auto;
+    position: relative;
+    animation-name:menu_item;
+    animation-duration: 1s;
     letter-spacing: 2px;
+  }
+
+  @keyframes menu_item {
+  0%  {top:-200px;}
+  100% {top:0px;}
   }
 
 
@@ -581,6 +613,13 @@ letter-spacing: 3px;
     width: 100%;
     margin:100px auto 0 auto;
     text-align: center;
+    animation-name: workspace_m;
+    animation-duration: 2s;
+  }
+
+  @keyframes workspace_m{
+    0% {bottom:-100px;}
+    100%{bottom:0px;}
   }
 
   a.portfoliocard1 {
@@ -742,8 +781,9 @@ letter-spacing: 3px;
     font-size:12px;
   }
 
-  .heading-name .surya{
+.surya{
     margin:20px 0;
+    
   }
 
   .experience-history{
@@ -813,9 +853,15 @@ letter-spacing: 3px;
     position: fixed;
     text-align: center;
     z-index:100;
+    animation-name: sidebar_t;
+    animation-duration: 1s;
     display: block;
     background-color:#262626;
+  }
 
+  @keyframes sidebar_t {
+  0%  {top:-100px;}
+  100% {top:0px;}
   }
 
   .sidebar a {
@@ -870,6 +916,11 @@ letter-spacing: 3px;
   a.portfoliocard1 {
     margin-bottom:10px;
     box-shadow: 0px 0px 1px white;
+  }
+
+  @keyframes box {
+    0%   {left:-100px;}
+    100% {left:0px;}
   }
 
   .portfoliocards{

@@ -644,7 +644,7 @@ a:active{
 
   .workspace{
     width: 100%;
-    margin:100px auto 0 auto;
+    margin:80px auto 0 auto;
     text-align: center;
     animation-name: workspace_m;
     animation-duration: 2s;
@@ -654,6 +654,27 @@ a:active{
     0% {bottom:-100px;}
     100%{bottom:0px;}
   }
+
+  .surya{
+    margin:0px 0 0 0;
+    animation: 2s anim-lineUp ease-out infinite;
+    animation-delay: 1s;
+    font-weight:bold;
+    font-size:42px;
+    color:#af77ff;
+    margin:50px 0 10px 0;
+    letter-spacing:5px;
+  }
+
+
+    .designer{
+      width:auto;
+      font-size: 18px;
+      line-height: 30px;
+      position: relative;
+      margin:10px 0;
+      color:#ffffff;
+    }
 
   a.portfoliocard1 {
     margin-bottom:10px;
@@ -814,29 +835,6 @@ a:active{
     font-size:12px;
   }
 
-  .surya{
-    margin:20px 0;
-    animation: 2s anim-lineUp ease-out infinite;
-    animation-delay: 1s;
-    font-weight:bold;
-    font-size:42px;
-    color:#af77ff;
-    margin:50px 0 10px 0;
-    letter-spacing:5px;
-  }
-
-  @suryanarayanan{
-    0% {}
-    }
-
-    .designer{
-      width:auto;
-      font-size: 18px;
-      line-height: 30px;
-      position: relative;
-      margin:10px 0;
-      color:#ffffff;
-    }
 
     .experience-history{
       margin:20px auto 0px auto;

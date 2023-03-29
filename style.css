@@ -644,7 +644,7 @@ a:active{
 
   .workspace{
     width: 100%;
-    margin:80px auto 0 auto;
+    margin:100px auto 0 auto;
     text-align: center;
     animation-name: workspace_m;
     animation-duration: 2s;
@@ -662,7 +662,7 @@ a:active{
     font-weight:bold;
     font-size:42px;
     color:#af77ff;
-    margin:50px 0 10px 0;
+    margin:25px 0 10px 0;
     letter-spacing:5px;
   }
 

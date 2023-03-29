@@ -79,3 +79,6 @@ document.oncontextmenu = click;
     animate(text4, 0, 4, 2500);
  }
 ////////////
+
+const footer = document.getElementsByClassName("copyright");
+footer[0].innerHTML="All works © Surya Narayanan 2023";

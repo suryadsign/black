@@ -624,6 +624,13 @@ fl}
     background-color:#262626;
   }
 
+  .dot{
+    top:120px;
+    left: 20px;
+    opacity: 20%;
+    z-index: -1;
+  }
+
   @keyframes sidebar_m {
     0%  {top:-100px;}
     100% {top:0px;}
@@ -924,6 +931,13 @@ fl}
       animation-duration: 1s;
       display: block;
       background-color:#262626;
+    }
+
+    .dot{
+      top:120px;
+      left: 100px;
+      opacity: 20%;
+      z-index: -1;
     }
 
     @keyframes sidebar_t {

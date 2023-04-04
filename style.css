@@ -536,6 +536,7 @@ table {
   border-collapse: separate;
   width: 100%;
   color:white;
+  font-size:14px;
 }
 
 th, td {

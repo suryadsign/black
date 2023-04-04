@@ -44,6 +44,7 @@ body{
   100% {opacity :1;}
 }
 
+
 #myBtn:hover {
   background-color: #ff7ab1;
 }
@@ -263,6 +264,7 @@ fl}
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   width:auto;
+  width:80%;
   padding-bottom:20px;
   margin: 0px;
   text-align: left;
@@ -526,6 +528,37 @@ fl}
 }
 
 /* skills */
+
+/* table */
+table {
+  margin:20px 0;
+  font-family: 'Poppins', sans-serif;
+  border-collapse: separate;
+  width: 100%;
+  color:white;
+}
+
+th, td {
+  position: sticky;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #2d2d2d;
+}
+
+.table-heading{
+  background-color: #2d2d2d;
+    position:relative;
+}
+
+.table-icon{
+  width:auto;
+  height:36px;
+}
+
+
 .hl1 {
   border-left: 150px solid black;
   opacity: 100%;
@@ -788,6 +821,20 @@ fl}
     width:100%;
     height: auto;
   }
+
+  table {
+    margin:10px auto;
+    border-collapse: separate;
+    width: 80%;
+    color:white;
+    font-size: 12px;
+  }
+
+  .table-icon{
+    width:auto;
+    height:24px;
+  }
+
 
   .hl {
     width:80%;
@@ -1062,6 +1109,19 @@ fl}
 
     .skills{
       margin:0px;
+    }
+
+    table {
+      margin:10px auto;
+      border-collapse: separate;
+      width: 90%;
+      color:white;
+      font-size: 14px;
+    }
+
+    .table-icon{
+      width:auto;
+      height:30px;
     }
 
     .numbers-list1{

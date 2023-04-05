@@ -540,7 +540,7 @@ table {
 }
 
 th, td {
-  position: sticky;
+  width:200px;
   text-align: center;
   padding: 8px;
 }

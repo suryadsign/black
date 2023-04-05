@@ -338,6 +338,12 @@ fl}
   border-radius:0;
 }
 
+.image:hover{
+  transform: scale(95%);
+  transition: 1s;
+  z-index: -1;
+}
+
 
 .bannerimages{
   width:80%;
@@ -364,6 +370,7 @@ fl}
   border-radius: 10px;
   margin:10px 10px;
   position: relative;
+  overflow:hidden;
   box-shadow: 0px 0px 1px black;
 }
 
@@ -373,6 +380,7 @@ fl}
   font-weight: bold;
   border-radius: 10px;
   transition: 0.2s;
+  overflow:hidden;
   box-shadow: 0px 0px 30px black;
 
 }
@@ -532,26 +540,23 @@ fl}
 /* table */
 table {
   margin:20px 0;
+  position: relative;
   font-family: 'Poppins', sans-serif;
-  border-collapse: separate;
+  border-collapse: collapse;
   width: 100%;
   color:white;
-  font-size:14px;
+  font-size: 14px;
 }
 
+
 th, td {
-  width:200px;
   text-align: center;
   padding: 8px;
+  width: 200px;
 }
 
 tr:nth-child(odd) {
   background-color: #2d2d2d;
-}
-
-.table-heading{
-  background-color: #2d2d2d;
-    position:relative;
 }
 
 .table-icon{
@@ -643,7 +648,7 @@ tr:nth-child(odd) {
   width:180px;
   height: 180px;
   padding:20px;
-  border-radius:200px;
+  border-radius: 300px;
 }
 
 .iconimages{
@@ -747,6 +752,8 @@ tr:nth-child(odd) {
     margin-bottom:10px;
     box-shadow: 0px 0px 1px white;
     width:300px;
+    overflow:hidden;
+
   }
 
   .image{
@@ -755,12 +762,11 @@ tr:nth-child(odd) {
     height:auto;
     border-radius:0;
   }
-  
-    .iconcategory{
-      width:100px;
-      height: 100px;
-    }
 
+  .iconcategory{
+    width:100px;
+    height: 100px;
+  }
 
   .portfoliocards{
     margin:30px 0;
@@ -1063,8 +1069,8 @@ tr:nth-child(odd) {
       width:40px;
       height:40px;
     }
-    
-      .iconcategory{
+
+    .iconcategory{
       width:120px;
       height: 120px;
     }

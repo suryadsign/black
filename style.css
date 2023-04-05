@@ -755,6 +755,11 @@ tr:nth-child(odd) {
     height:auto;
     border-radius:0;
   }
+  
+    .iconcategory{
+      width:100px;
+      height: 100px;
+    }
 
 
   .portfoliocards{
@@ -1057,6 +1062,11 @@ tr:nth-child(odd) {
     .icon{
       width:40px;
       height:40px;
+    }
+    
+      .iconcategory{
+      width:120px;
+      height: 120px;
     }
 
     a.portfoliocard1 {

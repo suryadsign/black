@@ -632,7 +632,7 @@ tr:nth-child(odd) {
 */
 
 .UX-banner{
-  width:90%;
+  width:100%;
   height:auto;
 }
 
@@ -656,6 +656,49 @@ tr:nth-child(odd) {
   height: 140px;
 }
 
+/* portfolio section */
+.sectionport{
+width:100%;
+height:auto;
+margin:20px 0;
+font-family: 'Satoshi', sans-serif;
+}
+
+.containerport{
+  padding:40px;
+  background-color:#2d2d2d;
+  width: 90%;
+  margin: 20px auto 20px auto;
+}
+
+.head1{
+  color:red;
+  font-size:24px;
+  font-weight:bolder;
+}
+
+.head2{
+  color:white;
+  font-size:24px;
+  font-weight:bolder;
+}
+
+.subhead1{
+  color:white;
+  font-size: 16px;
+}
+
+.subimage{
+  width:100%;
+  margin-top: 10px;
+  height:auto;
+}
+
+li{
+  color:white;
+margin:10px 0;
+text-align: left;
+}
 
 /* Viewport */
 @media screen and (min-width:360px)and (max-width:539px){
@@ -980,8 +1023,49 @@ tr:nth-child(odd) {
 
     }
 
+
+
+  /* portfolio section */
+  .sectionport{
+    width: 100%;
+    margin:0;
+    font-family: 'Satoshi', sans-serif;
   }
 
+  .containerport{
+    background-color:#2d2d2d;
+    width: 80%;
+    padding:20px;
+    text-align: left;
+  }
+
+
+  .subhead1{
+    color:white;
+    font-size: 12px;
+  }
+
+  .head1{
+    font-size: 16px;
+  }
+
+  .head2{
+    font-size: 16px;
+  }
+
+  .subimage{
+    height:auto;
+    margin-top:10px;
+  }
+
+  li{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
+  }
 
 
 
@@ -1229,6 +1313,48 @@ tr:nth-child(odd) {
       width:540px;
       height:390px;
       margin:0 auto 0 auto;
+    }
+
+
+    /* portfolio section */
+    .sectionport{
+      width: 100%;
+    margin:0;
+    font-family: 'Satoshi', sans-serif;
+    }
+
+    .containerport{
+      background-color:#2d2d2d;
+      width: 80%;
+      text-align: left;
+      padding:20px;
+
+    }
+
+
+    .subhead1{
+      color:white;
+      font-size: 12px;
+    }
+
+    .head1{
+      font-size: 16px;
+    }
+
+    .head2{
+      font-size: 16px;
+    }
+
+    .subimage{
+      height:auto;
+      margin-top:10px;
+    }
+
+    li{
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-size: 12px;
     }
 
   }

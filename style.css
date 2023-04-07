@@ -656,7 +656,7 @@ tr:nth-child(odd) {
   height: 140px;
 }
 
-/* portfolio section */
+/* portfolio section black*/
 .sectionport{
 width:100%;
 height:auto;
@@ -665,7 +665,7 @@ font-family: 'Satoshi', sans-serif;
 }
 
 .containerport{
-  padding:40px;
+  padding:20px;
   background-color:#2d2d2d;
   width: 90%;
   margin: 20px auto 20px auto;
@@ -699,6 +699,124 @@ li{
 margin:10px 0;
 text-align: left;
 }
+
+p{
+  color:white;
+}
+
+
+
+/* portfolio section white*/
+.sectionportw{
+width:100%;
+height:auto;
+background-color:white;
+margin:20px 0;
+padding:10px 0;
+font-family: 'Clash Grotesk', sans-serif;
+}
+
+.containerportw{
+  margin:0 auto 0 auto;
+  padding:20px 0px;
+  width: 90%;
+  margin: 20px auto 20px auto;
+}
+
+.head1w{
+  color:black;
+  font-size:24px;
+  font-weight:bolder;
+}
+
+.head2w{
+  color:black;
+  font-size:24px;
+  font-weight:bolder;
+}
+
+.subhead1w{
+  color:black;
+  font-size: 16px;
+}
+
+.subimagew{
+  width:100%;
+  margin-top: 20px;
+  height:auto;
+}
+
+li{
+  color:white;
+margin:10px 0;
+text-align: left;
+}
+
+.role{
+color:black;
+display:inline-block;
+}
+
+.role1{
+  display:inline-block;
+
+}
+
+.role2{
+  display:inline-block;
+  margin-left:20px;
+}
+
+.role1list{
+  color:black;
+  list-style-type: circle;
+}
+
+.role2list{
+  color:black;
+  list-style-type: circle;
+}
+
+.duration{
+color:black;
+display:inline-block;
+margin-bottom:30px;
+}
+
+.duration1{
+  display:inline-block;
+
+}
+
+.duration2{
+  display:inline-block;
+  margin-left:20px;
+}
+
+.durationno{
+  color:#FD6DDE;
+  font-weight: bolder;
+  font-size: 48px;
+  margin:0;
+}
+
+.durationtitle{
+  color:black;
+  font-weight: normal;
+  font-size: 24px;
+  margin:0;
+}
+
+.porttext{
+  color:black;
+}
+
+
+
+
+
+
+
 
 /* Viewport */
 @media screen and (min-width:360px)and (max-width:539px){
@@ -994,7 +1112,7 @@ text-align: left;
     }
 
     .UX-banner{
-      width:90%;
+      width:100%;
       height:auto;
     }
 
@@ -1025,7 +1143,7 @@ text-align: left;
 
 
 
-  /* portfolio section */
+  /* portfolio section black */
   .sectionport{
     width: 100%;
     margin:0;
@@ -1063,7 +1181,53 @@ text-align: left;
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 12px;
+    color:white;
   }
+
+  p{
+    color:white;
+  }
+
+
+  /* portfolio section white */
+  .sectionportw{
+    width: 100%;
+    margin:0;
+    font-family: 'Clash Grotesk', sans-serif;
+  }
+
+  .containerportw{
+    width: 80%;
+    padding:20px;
+    text-align: left;
+  }
+
+
+  .subhead1w{
+    color:black;
+    font-size: 12px;
+  }
+
+  .head1w{
+    font-size: 16px;
+  }
+
+  .head2w{
+    font-size: 16px;
+  }
+
+  .subimagew{
+    height:auto;
+    margin-top:10px;
+  }
+
+  li{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
 
   }
 
@@ -1186,8 +1350,9 @@ text-align: left;
     }
 
     .UX-banner{
-      width:80%;
+      width:100%;
       height:auto;
+      margin:0px;
     }
 
     .bannerimages{
@@ -1266,7 +1431,7 @@ text-align: left;
     }
 
     .UX-banner{
-      margin-top:30px;
+      margin-top:0;
     }
 
     .experience-list{
@@ -1316,7 +1481,7 @@ text-align: left;
     }
 
 
-    /* portfolio section */
+    /* portfolio section black */
     .sectionport{
       width: 100%;
     margin:0;
@@ -1346,6 +1511,53 @@ text-align: left;
     }
 
     .subimage{
+      height:auto;
+      margin-top:10px;
+    }
+
+    li{
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-size: 12px;
+      color:white;
+
+    }
+
+    p{
+      color:white;
+    }
+
+    /* portfolio section white */
+    .sectionportw{
+      width: 100%;
+    margin:0;
+    padding:0;
+    font-family: 'Clash Grotesk', sans-serif;
+    }
+
+    .containerportw{
+      width: 80%;
+      text-align: left;
+      padding:20px;
+
+    }
+
+
+    .subhead1w{
+      color:black;
+      font-size: 12px;
+    }
+
+    .head1w{
+      font-size: 16px;
+    }
+
+    .head2w{
+      font-size: 16px;
+    }
+
+    .subimagew{
       height:auto;
       margin-top:10px;
     }

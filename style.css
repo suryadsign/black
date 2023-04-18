@@ -1222,9 +1222,9 @@ a:active{
     }
 
     .experience-description{
-      font-size: 16px;
+      font-size: 12px;
       font-family: 'Poppins', sans-serif;
-      width:70%;
+      width:80%;
       padding:0px;
       line-height: 20px;
       margin:0 auto;

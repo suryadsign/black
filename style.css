@@ -1116,11 +1116,13 @@ margin: -20px;
 
 
     .logodiv{
-position: inline;     \
-margin: 0 auto 0 auto;
+    position: inline;
+    margin: 0 auto 0 auto;
     }
 
     .profileimage{
+      width:80px;
+      height:auto;
     margin-bottom: 10px;
     }
 
@@ -1711,6 +1713,8 @@ margin: 0 auto 0 auto;
     }
 
     .profileimage{
+      width:120px;
+      height:auto;
     margin-bottom: 10px;
     }
 

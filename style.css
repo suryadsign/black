@@ -6,6 +6,55 @@ body{
   background-color: #272727;
 }
 
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  margin: -60px;
+  border: 6px solid #E1BBFF;
+  border-radius:100px;
+  border-top: 6px solid #FF28B6;
+  animation: spin 500ms linear infinite;
+}
+
+.loadtext{
+  position: absolute;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg);}
+}
+
+
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 500ms;
+  animation-name: animatebottom;
+  animation-duration: 500ms;
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ left:-100px; opacity:0}
+  to{ left:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+
 .hidden{
   opacity:0;
   transition: all 2s;
@@ -17,6 +66,10 @@ body{
   opacity:1;
   filter: blur(0px);
   transform: translateY(0);
+}
+
+.portfoliocard1:nth-child(1){
+  transition-delay: 200ms;
 }
 
 .dot{
@@ -998,6 +1051,10 @@ a:active{
       z-index: -1;
     }
 
+    #loader {
+margin: -20px;
+    }
+
     @keyframes sidebar_m {
       0%  {top:-100px;}
       100% {top:0px;}
@@ -1554,6 +1611,16 @@ a:active{
       left: 100px;
       opacity: 20%;
       z-index: -1;
+    }
+
+    #loader{
+      margin: -20px;
+
+    }
+
+    @keyframes animatebottom {
+      from{ top:-100px; opacity:0}
+      to{ top:0; opacity:1 }
     }
 
     @keyframes sidebar_t {

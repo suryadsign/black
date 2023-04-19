@@ -79,14 +79,15 @@ body{
   z-index: -1;
 }
 
+.logodiv{
+  display: inline-block;
+  padding-left: 15px;
+}
 .logo{
   width:60px;
-  text-align: left;
 }
 
-.logo a{
-  padding:10px;
-}
+
 
 #myBtn {
   display: none;
@@ -128,8 +129,8 @@ body{
   margin-top: 0;
   padding-top: 80px;
   width: 15%;
-  /* background-color: #262626; */
-  position: fixed;
+padding-left: 20px;
+ position: fixed;
   height: 100%;
   animation-name: sidebar_d;
   animation-duration: 1s;
@@ -159,10 +160,10 @@ body{
 .sidebar a {
   display: block;
   color: white;
-  padding:24px;
+  padding:16px;
   text-decoration: none;
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
+  font-size: 16px;
   letter-spacing: 2px;
 }
 
@@ -232,6 +233,28 @@ a:active{
     text-align: left;
   }
 
+
+  .profile{
+    display: inline;
+  }
+
+  .profileimage{
+    width:150px;
+    height: auto;
+    display: inline-block;
+  }
+
+  .experience-description{
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      width:auto;
+      width:50%;
+      display: inline-block;
+      margin: 0 0 0 10px;
+      text-align: left;
+      color:#ffffff;
+  }
+
   @keyframes workspace{
     0% {bottom:-1000px;}
     100% {bottom:0px;}
@@ -278,7 +301,7 @@ a:active{
   }
 
   #intro{
-    margin-top:100px;
+    margin-top:60px;
     height: auto;
     padding:10px;
 
@@ -331,14 +354,6 @@ a:active{
     margin-bottom:0px;
   }
 
-  .experience-designation{
-    margin:10px 0;
-    font-weight: regular;
-    font-size: 20px;
-    color:#ffffff;
-
-  }
-
   .experience-history{
     font-size: 24px;
     width: auto;
@@ -346,15 +361,6 @@ a:active{
     color:#ff7ab1;
   }
 
-  .experience-description{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    width:auto;
-    width:90%;
-    margin: 0 0 0 10px;
-    text-align: left;
-    color:#ffffff;
-}
 
 .experiences-description{
   font-size: 14px;
@@ -557,7 +563,7 @@ a:active{
   }
 
   .iconlist1{
-    margin:0px 10px;
+    margin:0px 10px 0 0;
     display: inline-block;
   }
 
@@ -1049,7 +1055,8 @@ a:active{
   @media screen and (min-width:360px)and (max-width:539px){
 
     .sidebar {
-      padding-top:10px;
+      padding-top:30px;
+      padding-left: 0px;
       width:100%;
       height: auto;
       position: fixed;
@@ -1074,6 +1081,12 @@ margin: -20px;
     @keyframes sidebar_m {
       0%  {top:-100px;}
       100% {top:0px;}
+    }
+
+    .logodiv{
+      padding:0px;
+      width: 360px;
+      margin:0 auto 0 auto;
     }
 
     .sidebar a {
@@ -1103,8 +1116,12 @@ margin: -20px;
 
 
     .logodiv{
-      width: 40px;
-      margin: 0 auto 0 auto;
+position: inline;     \
+margin: 0 auto 0 auto;
+    }
+
+    .profileimage{
+    margin-bottom: 10px;
     }
 
     .logo{
@@ -1615,8 +1632,9 @@ margin: -20px;
   /* Viewport */
   @media screen and (min-width:540px)and (max-width:800px){
     .sidebar {
-      padding-top:20px;
+      padding-top:30px;
       width:100%;
+      padding-left: 0px;
       height: auto;
       position: fixed;
       text-align: center;
@@ -1682,13 +1700,18 @@ margin: -20px;
 
     .logodiv{
       text-align: center;
-      width: 65%;
+      width: 100%;
+      padding: 0px;
       margin: 0 auto 0 auto;
     }
 
     .logo{
       width:40px;
       text-align: center;
+    }
+
+    .profileimage{
+    margin-bottom: 10px;
     }
 
     .iconlist{
@@ -1840,7 +1863,7 @@ margin: -20px;
       width:100%;
       padding:0px 0px 0px 0px;
       line-height: 25px;
-      margin: 0 0 0 10px;
+      margin: 0 0 10px 10px;
       text-align: center;
       color:#ffffff;
     }
@@ -2093,7 +2116,7 @@ margin: -20px;
     }
 
     .logodiv{
-      width:40px;
+      width:100%;
       height: auto;
       margin: 0 auto 0 auto;
     }

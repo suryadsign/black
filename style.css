@@ -141,6 +141,21 @@ body{
   100% {left:0px;}
 }
 
+.badge {
+  background-color: red;
+  font-family: 'poppins',sans-serif;
+  color: white;
+  padding: 4px 6px;
+  font-size: 8px;
+  position: relative;
+  font-weight: bold;
+  bottom:5px;
+  margin-left: 3px;
+  text-align: center;
+  border-radius: 2px;
+  letter-spacing: 0px;
+}
+
 .sidebar a {
   display: block;
   color: white;
@@ -537,6 +552,7 @@ a:active{
     text-align: left;
     font-family: 'Poppins', sans-serif;
     margin-bottom:0px;
+    margin-top:16px;
     width:80%;
   }
 
@@ -1615,7 +1631,6 @@ margin: -20px;
 
     #loader{
       margin: -20px;
-
     }
 
     @keyframes animatebottom {

@@ -1083,12 +1083,17 @@ margin: -20px;
       padding:20px;
       text-decoration: none;
       text-align: center;
-      font-size: 16px;
+      font-size: 12px;
       margin:0px auto;
       position: relative;
       animation-name:menu_item;
       animation-duration: 1s;
       letter-spacing: 2px;
+    }
+
+    .badge{
+      position: relative;
+      bottom:1px;
     }
 
     @keyframes menu_item {
@@ -1654,6 +1659,11 @@ margin: -20px;
       margin:0px 10px;
       letter-spacing: 2px;
       position: relative;
+    }
+
+    .badge{
+      position: relative;
+      bottom:1px;
     }
 
     .workspace{

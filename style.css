@@ -6,6 +6,18 @@ body{
   background-color: #272727;
 }
 
+.hidden{
+  opacity:0;
+  transition: all 2s;
+  filter: blur(10px);
+  transform: translateY(100px);
+}
+
+.show{
+  opacity:1;
+  filter: blur(0px);
+  transform: translateY(0);
+}
 
 .dot{
   position:fixed;
@@ -281,7 +293,7 @@ a:active{
   font-family: 'Poppins', sans-serif;
   padding:0px 0px 0px 0px;
   line-height: 20px;
-  width:60%;
+  width:90%;
   margin:10px 0;
   text-align: left;
   color:#ffffff;
@@ -460,30 +472,6 @@ a:active{
     line-height: 20PX;
   }
 
-  /* Socialmedia */
-
-  .socialmedia{
-    margin:20px 0 0 0;
-  }
-
-  .socialmedia-list{
-    padding:10px 0 10px 0;
-    display:inline-block;
-  }
-
-  .socialmediaimage{
-    width:36px;
-    height:36px;
-  }
-
-  .socialmediatext{
-    position: relative;
-  }
-
-  .socialmedia-listview{
-    float: left;
-    margin: 0 20px 0 20px;
-  }
 
 
 
@@ -1531,6 +1519,18 @@ a:active{
 
   }
 
+  .hidden{
+    opacity:0;
+    transition: all 2s;
+    filter: blur(10px);
+    transform: translateY(100px);
+  }
+
+  .show{
+    opacity:1;
+    filter: blur(0px);
+    transform: translateX(0);
+  }
 
 
 
@@ -1977,6 +1977,19 @@ a:active{
         .styled1{
           width:100%;
         }
+  }
+
+  .hidden{
+    opacity:0;
+    transition: all 2s;
+    filter: blur(5px);
+    transform: translateY(100px);
+  }
+
+  .show{
+    opacity:1;
+    filter: blur(0px);
+    transform: translateY(0);
   }
 
 

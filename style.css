@@ -129,8 +129,8 @@ body{
   margin-top: 0;
   padding-top: 80px;
   width: 15%;
-padding-left: 20px;
- position: fixed;
+  padding-left: 20px;
+  position: fixed;
   height: 100%;
   animation-name: sidebar_d;
   animation-duration: 1s;
@@ -245,14 +245,14 @@ a:active{
   }
 
   .experience-description{
-      font-size: 16px;
-      font-family: 'Poppins', sans-serif;
-      width:auto;
-      width:50%;
-      display: inline-block;
-      margin: 0 0 0 10px;
-      text-align: left;
-      color:#ffffff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width:auto;
+    width:50%;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    text-align: left;
+    color:#ffffff;
   }
 
   @keyframes workspace{
@@ -357,29 +357,34 @@ a:active{
   .experience-history{
     font-size: 24px;
     width: auto;
-    margin:10px 0;
-    color:#ff7ab1;
+text-align: center;   color:#ff7ab1;
   }
 
 
-.experiences-description{
-  font-size: 14px;
-  font-family: 'Poppins', sans-serif;
-  padding:0px 0px 0px 0px;
-  line-height: 20px;
-  width:90%;
-  margin:10px 0;
-  text-align: left;
-  color:#ffffff;
-}
+  .experiences-description{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding:0px 0px 0px 0px;
+    line-height: 20px;
+    width:90%;
+    margin:10px 0;
+    text-align: left;
+    color:#ffffff;
+  }
 
   .experience-list {
-    padding:10px 0px;
-    /* border:1px solid #E4E4E4; */
+    padding:20px;
     border-radius: 10px;
-    margin:10px 0;
+    margin:10px 10px 10px 0;
+    width: 25%;
+    height:auto;
+    background-color: #303030;
+    display: inline-grid;
   }
 
+  .experience-designation{
+    margin:0px;
+  }
   .education-list{
     margin-top:30px;
   }
@@ -587,7 +592,7 @@ a:active{
 
   }
 
-    .numbers-list1{
+  .numbers-list1{
     height:auto;
     padding:5px 20px;
     width: 190px;
@@ -600,7 +605,7 @@ a:active{
     border-radius: 0px;
   }
 
-   .list1{
+  .list1{
     font-size: 24px;
     font-family: 'poppins',sans-serif;
     font-weight: bold;
@@ -623,11 +628,15 @@ a:active{
     position: relative;
     font-family: 'Poppins', sans-serif;
     border-collapse: collapse;
-    width: 95%;
+    width: 88%;
     color:white;
     font-size: 14px;
   }
 
+  th{
+    background-color: #2d2d2d;
+
+  }
 
   th, td {
     text-align: center;
@@ -636,7 +645,6 @@ a:active{
   }
 
   tr:nth-child(odd) {
-    background-color: #2d2d2d;
   }
 
   .table-icon{
@@ -941,7 +949,7 @@ a:active{
     height:auto;
     display:inline-block;
     position:relative;
-    }
+  }
 
 
   .titled{
@@ -1080,7 +1088,7 @@ a:active{
     }
 
     #loader {
-margin: -20px;
+      margin: -20px;
     }
 
     @keyframes sidebar_m {
@@ -1121,12 +1129,12 @@ margin: -20px;
 
 
     .logodiv{
-position: inline;     \
-margin: 0 auto 0 auto;
+      position: inline;     \
+      margin: 0 auto 0 auto;
     }
 
     .profileimage{
-    margin-bottom: 10px;
+      margin-bottom: 10px;
     }
 
     .logo{
@@ -1211,8 +1219,8 @@ margin: 0 auto 0 auto;
     }
 
     .iconpack{
-        margin-top: 30px;
-      }
+      margin-top: 30px;
+    }
 
     .iconlist{
       text-align: left;
@@ -1336,9 +1344,14 @@ margin: 0 auto 0 auto;
     }
 
     .experience-list{
-      margin:0 0 0 0;
+      margin:10px 0 10px 0;
       line-height: 20px;
       border:none;
+      width:70%;
+    }
+
+    .experience-designation{
+      margin:8px 0;
     }
 
     .experience-list1{
@@ -1593,7 +1606,7 @@ margin: 0 auto 0 auto;
       height:auto;
       display:inline-block;
       position:relative;
-      }
+    }
 
     .role2{
       display:inline-block;
@@ -1720,7 +1733,7 @@ margin: 0 auto 0 auto;
     }
 
     .profileimage{
-    margin-bottom: 10px;
+      margin-bottom: 10px;
     }
 
     .iconlist{
@@ -1746,8 +1759,8 @@ margin: 0 auto 0 auto;
     }
 
     .iconpack{
-        margin-top: 10px;
-      }
+      margin-top: 10px;
+    }
 
     a.portfoliocard1 {
       margin-bottom:10px;
@@ -1865,10 +1878,16 @@ margin: 0 auto 0 auto;
     }
 
     .experience-list{
-      margin:0 0 0 0;
+      margin:10px 0 10px 0;
       line-height: 20px;
       border:none;
+      width: 60%;
     }
+
+    .experience-designation{
+      margin:5px 0;
+    }
+
 
     .experience-description{
       font-size: 14px;
@@ -2090,21 +2109,21 @@ margin: 0 auto 0 auto;
       height:auto;
       display:inline-block;
       position:relative;
-      }
+    }
 
-      .role2{
-        display:inline-block;
-        margin-left:0px;
-      }
+    .role2{
+      display:inline-block;
+      margin-left:0px;
+    }
 
-      .quantitateimage1{
-          width:100%;
-          height: auto;
-        }
+    .quantitateimage1{
+      width:100%;
+      height: auto;
+    }
 
-        .styled1{
-          width:100%;
-        }
+    .styled1{
+      width:100%;
+    }
   }
 
   .hidden{

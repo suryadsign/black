@@ -723,16 +723,20 @@ a:active{
     color:white;
   }
 
+  .iconpack{
+    margin-top: 60px;
+  }
+
   .iconcategory{
-    width:180px;
-    height: 180px;
+    width:120px;
+    height: 120px;
     padding:20px;
     border-radius: 300px;
   }
 
   .iconimages{
-    width:140px;
-    height: 140px;
+    width:120px;
+    height: 120px;
   }
 
   /* portfolio section Motoori*/
@@ -1116,13 +1120,11 @@ margin: -20px;
 
 
     .logodiv{
-    position: inline;
-    margin: 0 auto 0 auto;
+position: inline;     \
+margin: 0 auto 0 auto;
     }
 
     .profileimage{
-      width:80px;
-      height:auto;
     margin-bottom: 10px;
     }
 
@@ -1132,7 +1134,7 @@ margin: -20px;
 
     .workspace{
       width: 100%;
-      margin:130px auto 0 auto;
+      margin:100px auto 0 auto;
       text-align: center;
       animation-name: workspace_m;
       animation-duration: 2s;
@@ -1206,6 +1208,10 @@ margin: -20px;
       width:80%;
       margin:30px auto 30px auto;
     }
+
+    .iconpack{
+        margin-top: 30px;
+      }
 
     .iconlist{
       text-align: left;
@@ -1713,8 +1719,6 @@ margin: -20px;
     }
 
     .profileimage{
-      width:120px;
-      height:auto;
     margin-bottom: 10px;
     }
 
@@ -1736,9 +1740,13 @@ margin: -20px;
     }
 
     .iconcategory{
-      width:120px;
-      height: 120px;
+      width:100px;
+      height: 100px;
     }
+
+    .iconpack{
+        margin-top: 10px;
+      }
 
     a.portfoliocard1 {
       margin-bottom:10px;

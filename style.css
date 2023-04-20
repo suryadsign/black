@@ -169,6 +169,8 @@ body{
 
 .sidebar a.active {
   color: #ff7ab1;
+  background-color:#2d2d2d;
+
   font-weight: bold;
 }
 
@@ -1073,7 +1075,7 @@ text-align: center;   color:#ff7ab1;
   @media screen and (min-width:360px)and (max-width:539px){
 
     .sidebar {
-      padding-top:30px;
+      padding-top:15px;
       padding-left: 0px;
       width:100%;
       height: auto;
@@ -1104,7 +1106,7 @@ text-align: center;   color:#ff7ab1;
     .logodiv{
       padding:0px;
       width: 360px;
-      margin:0 auto 0 auto;
+      margin:0 auto 10px auto;
     }
 
     .sidebar a {
@@ -1160,7 +1162,7 @@ text-align: center;   color:#ff7ab1;
     }
 
     #intro{
-      margin-top:10px;
+      margin-top:20px;
     }
 
     .surya{

@@ -605,6 +605,11 @@ text-align: center;   color:#ff7ab1;
     border-radius: 0px;
   }
 
+  .numbers-list1:nth-child(odd) {
+
+  }
+
+
   .list1{
     font-size: 24px;
     font-family: 'poppins',sans-serif;
@@ -1335,7 +1340,7 @@ text-align: center;   color:#ff7ab1;
     .experiences-description{
       font-size: 12px;
       font-family: 'Poppins', sans-serif;
-      width:70%;
+      width:90%;
       padding:0px 0px 0px 0px;
       line-height: 20px;
       margin:10px auto;
@@ -1903,7 +1908,7 @@ text-align: center;   color:#ff7ab1;
     .experiences-description{
       font-size: 12px;
       font-family: 'Poppins', sans-serif;
-      width:70%;
+      width:90%;
       padding:0px 0px 0px 0px;
       line-height: 20px;
       margin:10px auto;

@@ -735,13 +735,13 @@ text-align: center;   color:#ff7ab1;
     margin:20px auto 10px auto;
     font-size:10px;
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+    text-align: center;
     color:white;
   }
 
   .iconpack{
     margin-top: 60px;
-    text-align:left;
+    text-align: left;
   }
 
   .iconcategory{

@@ -1076,7 +1076,7 @@ text-align: center;   color:#ff7ab1;
     padding:12px;
     display: inline-block;
     width:auto;
-    border:1px solid white;
+    background-color:#F010A4;
     color:white;
     border-radius: 5px;
     font-size: 12px;
@@ -1086,9 +1086,10 @@ text-align: center;   color:#ff7ab1;
   .downloadresume a:hover{
     padding:12px;
     display: inline-block;
-    background-color:#F010A4;
+    background-color:#58287F;
     width:auto;
     border:none;
+    color:white;
     font-size: 12px;
     transition:0.8s ease-out;
 

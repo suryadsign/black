@@ -564,9 +564,8 @@ text-align: center;   color:#ff7ab1;
   .iconlist{
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    margin-bottom:0px;
-    margin-top:16px;
     width:80%;
+    margin:20px 0 0 0;
   }
 
   .iconlist1{
@@ -1073,26 +1072,21 @@ text-align: center;   color:#ff7ab1;
   }
 
   .downloadresume a{
-    padding:12px;
+    padding:10px 40px;
     display: inline-block;
-    width:auto;
-    background-color:#F010A4;
     color:white;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 16px;
+    background-color:#58287F;
+    font-family: 'poppins', sans-serif;
     transition:0.2s ease-in;
+    text-align: center;
+    margin:20px 0;
   }
 
   .downloadresume a:hover{
-    padding:12px;
-    display: inline-block;
-    background-color:#58287F;
-    width:auto;
+    background-color:#F010A4;
     border:none;
-    color:white;
-    font-size: 12px;
-    transition:0.8s ease-out;
-
   }
 
 
@@ -1255,15 +1249,14 @@ text-align: center;   color:#ff7ab1;
     }
 
     .iconlist{
-      text-align: left;
-      margin:0 auto;
-      width:60%;
-      display: inline-block;
-      /* padding:10px; */
+      width:80%;
+      margin: 10px auto;
     }
 
     .iconlist1{
-      margin:0px;
+      width:70%;
+      position: relative;
+      left:50px;
     }
 
     .ratingtext{
@@ -1682,6 +1675,13 @@ text-align: center;   color:#ff7ab1;
     .downloadresume a{
       background-color:#58287F;
       border:none;
+      width:80%;
+      text-align: center;
+      font-family: 'poppins',sans-serif;
+    }
+    .downloadresume{
+      width:100%;
+      margin-bottom: 20px;
     }
 
 
@@ -2179,6 +2179,14 @@ text-align: center;   color:#ff7ab1;
     .downloadresume a{
       background-color:#58287F;
       border:none;
+      width:80%;
+      text-align: center;
+      font-family: 'poppins',sans-serif;
+    }
+    .downloadresume{
+      width:100%;
+      margin: 20px 0;
+    }
     }
   }
 
@@ -2200,4 +2208,6 @@ text-align: center;   color:#ff7ab1;
     .logo{
       width:40px;
     }
+
+
   }

@@ -72,12 +72,12 @@ body{
   transition-delay: 200ms;
 }
 
-.dot{
+/* .dot{
   position:fixed;
   left:150px;
   opacity: 20%;
   z-index: -1;
-}
+} */
 
 .logodiv{
   display: inline-block;
@@ -1106,12 +1106,12 @@ text-align: center;   color:#ff7ab1;
       background-color:#262626;
     }
 
-    .dot{
+    /* .dot{
       top:120px;
       left: 20px;
       opacity: 20%;
       z-index: -1;
-    }
+    } */
 
     #loader {
       margin: -20px;
@@ -1704,12 +1704,12 @@ text-align: center;   color:#ff7ab1;
       background-color:#262626;
     }
 
-    .dot{
+    /* .dot{
       top:120px;
       left: 100px;
       opacity: 20%;
       z-index: -1;
-    }
+    } */
 
     #loader{
       margin: -20px;

@@ -536,7 +536,7 @@ ul.breadcrumb li {
 }
 ul.breadcrumb li+li:before {
   padding: 8px;
-  color: black;
+  color: white;
   content: "/";
 }
 ul.breadcrumb li a {

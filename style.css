@@ -72,6 +72,10 @@ body{
   transition-delay: 200ms;
 }
 
+.alien{
+  margin-top: 30px;
+}
+
 /* .dot{
   position:fixed;
   left:150px;
@@ -517,6 +521,33 @@ text-align: center;   color:#ff7ab1;
     color:#5D3891;
   }
 
+  ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  background-color:#272727;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+  color:white;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/";
+}
+ul.breadcrumb li a {
+  color: #F74EC9;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color:white ;
+  text-decoration: underline;
+}
+
 
   /* Contact */
 
@@ -739,7 +770,7 @@ text-align: center;   color:#ff7ab1;
   }
 
   .iconpack{
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: left;
   }
 
@@ -1169,7 +1200,7 @@ text-align: center;   color:#ff7ab1;
 
     .workspace{
       width: 100%;
-      margin:100px auto 0 auto;
+      margin:115px auto 0 auto;
       text-align: center;
       animation-name: workspace_m;
       animation-duration: 2s;
@@ -1246,6 +1277,9 @@ text-align: center;   color:#ff7ab1;
 
     .iconpack{
       margin-top: 30px;
+      width: 80%;
+      text-align: center;
+      width: 0 auto 0 auto;
     }
 
     .iconlist{
@@ -1682,6 +1716,10 @@ text-align: center;   color:#ff7ab1;
       margin-bottom: 20px;
     }
 
+    ul.breadcrumb {
+      display: none;
+    }
+
 
   }
 
@@ -1745,7 +1783,7 @@ text-align: center;   color:#ff7ab1;
 
     .workspace{
       width: 100%;
-      margin:140px auto 0 auto;
+      margin:135px auto 0 auto;
       text-align: center;
       animation-duration:1s;
     }
@@ -2184,6 +2222,10 @@ text-align: center;   color:#ff7ab1;
     .downloadresume{
       width:100%;
       margin: 20px 0;
+    }
+
+    ul.breadcrumb {
+      display: none;
     }
     }
   }

@@ -848,7 +848,6 @@ ul.breadcrumb li a:hover {
   }
 
   .iconimages{
-    width:120px;
     height: 120px;
   }
 
@@ -1317,8 +1316,9 @@ ul.breadcrumb li a:hover {
     }
 
     .iconcategory{
-      width:60px;
-      height: 60px;
+      width:40%;
+      height: auto;
+      margin:10px 0;
     }
 
     .portfoliocards{
@@ -1894,13 +1894,15 @@ ul.breadcrumb li a:hover {
     }
 
     .iconcategory{
-      width:60px;
-      height: 60px;
+      width:40%;
+      height: auto;
+      margin:20px
     }
 
     .iconpack{
       margin:0 auto 0 auto;
       width:80%;
+      text-align:center;
     }
 
     a.portfoliocard1 {

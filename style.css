@@ -76,6 +76,64 @@ body{
   margin-top: 30px;
 }
 
+
+.contain{
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'poppins',sans-serif;
+}
+
+.testimonial{
+  position: relative;
+  max-width: 950px;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #3d3d3d;
+}
+
+.testimonial .slide{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.testimonial .image{
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.slide p{
+padding: 0 160px;
+font-size: 12px;
+}
+
+.quote-icon{
+width: 40px;
+height: auto;
+}
+
+.personimage{
+  width: 100px;
+  height: auto;
+}
+
+.feedperson{
+  color:White;
+  font-weight: bold;
+}
+
+.feeddesign{
+  color:White;
+}
+
 /* .dot{
   position:fixed;
   left:150px;
@@ -770,15 +828,16 @@ ul.breadcrumb li a:hover {
   }
 
   .iconpack{
-    margin-top: 20px;
     text-align: left;
   }
 
   .iconcategory{
-    width:120px;
-    height: 120px;
+    width:100px;
+    height: 100px;
     padding:20px;
-    border-radius: 300px;
+    margin-right: 20px;
+    border-radius: 100px;
+    background-color: black;
   }
 
   .iconimages{
@@ -1251,8 +1310,8 @@ ul.breadcrumb li a:hover {
     }
 
     .iconcategory{
-      width:100px;
-      height: 100px;
+      width:60px;
+      height: 60px;
     }
 
     .portfoliocards{
@@ -1276,10 +1335,9 @@ ul.breadcrumb li a:hover {
     }
 
     .iconpack{
-      margin-top: 30px;
-      width: 80%;
       text-align: center;
-      width: 0 auto 0 auto;
+      margin: 0 auto 0 auto;
+      width: 80%;
     }
 
     .iconlist{
@@ -1824,17 +1882,18 @@ ul.breadcrumb li a:hover {
     }
 
     .icon{
-      width:40px;
-      height:40px;
+      width:60px;
+      height:60px;
     }
 
     .iconcategory{
-      width:100px;
-      height: 100px;
+      width:60px;
+      height: 60px;
     }
 
     .iconpack{
-      margin-top: 10px;
+      margin:0 auto 0 auto;
+      width:80%;
     }
 
     a.portfoliocard1 {

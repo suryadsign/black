@@ -838,7 +838,13 @@ ul.breadcrumb li a:hover {
     padding:20px;
     margin-right: 20px;
     border-radius: 100px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
     background-color: black;
+  }
+
+  .iconcategory:hover{
+    transform: rotateY(180deg);
   }
 
   .iconimages{

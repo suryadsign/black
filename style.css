@@ -529,7 +529,7 @@ text-align: center;   color:#ff7ab1;
 
 
   .portfoliocards{
-    margin:10px auto 30px auto;
+    margin:10px auto 0 auto;
   }
 
   .portfoliocard1{
@@ -561,10 +561,8 @@ text-align: center;   color:#ff7ab1;
     margin:10px 0;
     line-height: 30px;
     text-align: center;
-    /* font-weight: bold; */
+    display:none;
     font-family: 'Poppins', sans-serif;
-
-
   }
 
   .portfolio-description {

@@ -561,8 +561,11 @@ text-align: center;   color:#ff7ab1;
     margin:10px 0;
     line-height: 30px;
     text-align: center;
-    display:none;
+    display: none;
+    /* font-weight: bold; */
     font-family: 'Poppins', sans-serif;
+
+
   }
 
   .portfolio-description {
@@ -1212,7 +1215,7 @@ ul.breadcrumb li a:hover {
 
     .logodiv{
       padding:0px;
-      width: 360px;
+      width: 100%;
       margin:0 auto 10px auto;
     }
 

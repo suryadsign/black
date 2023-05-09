@@ -3,6 +3,9 @@ body{
   height: auto;
   font-family: 'Poppins', sans-serif;
   font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Satoshi', sans-serif;
+  font-family: 'Clash Grotesk', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   background-color: #272727;
 }
 
@@ -232,7 +235,6 @@ height: auto;
 .sidebar a.active {
   color: #ff7ab1;
   background-color:#2d2d2d;
-
   font-weight: bold;
 }
 
@@ -581,7 +583,7 @@ text-align: center;   color:#ff7ab1;
   }
 
   ul.breadcrumb {
-  padding: 10px 16px;
+  padding: 10px 0px;
   list-style: none;
   margin: 0 auto 0 auto;
   width: 100%;
@@ -899,6 +901,119 @@ ul.breadcrumb li a:hover {
     color:white;
   }
 
+  /* portfolio section emPartner*/
+  .sectionportem{
+    width:100%;
+    height:auto;
+    margin:20px 0;
+    font-family: 'Satoshi', sans-serif;
+  }
+
+  .containerportem{
+    padding:20px;
+    background-color:#2d2d2d;
+    width: 90%;
+    margin: 20px auto 20px auto;
+  }
+
+  .head1em{
+    color:#0070D2;
+    font-size:24px;
+    font-weight:bolder;
+  }
+
+  .head2em{
+    color:white;
+    font-size:24px;
+    font-weight:bolder;
+  }
+
+  .subhead1em{
+    color:white;
+    font-size: 19px;
+  }
+
+  .subimageem{
+    width:50%;
+    margin-top: 10px;
+    height:auto;
+  }
+
+  .containerportem li{
+    color:white;
+    margin:10px 0;
+    text-align: left;
+    list-style: none;
+  }
+
+  p{
+    color:white;
+  }
+
+  .partnerimg{
+    width:100%;
+    height:auto;
+    display:inline-block;
+    position:relative;
+  }
+
+
+  .titleem{
+    font-size:24px;
+    font-weight:bolder;
+    width: 60%;
+    margin:0 0 0 0;
+    display: inline-block;
+    position: relative;
+    height: auto;
+  }
+
+  .subtitleem{
+    width:50%;
+    font-size:16px;
+    line-height: 20px;
+  }
+
+
+  .containerem{
+    width:100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    display:inline-flex;
+    align-items: center;
+  }
+
+  .container1em{
+    width: 50%;
+    display:inline-block;
+    margin-top:20px;
+  }
+
+  .container2em{
+    width: 50%;
+    display:inline-block;
+  }
+
+  .container3em{
+    width: 50%;
+    display:inline-block;
+    margin-top:20px;
+    padding-right: 30px;
+    text-align: -webkit-right;
+  }
+
+  .container4em{
+    width: 50%;
+    display:inline-block;
+    text-align: -webkit-right;
+    padding-right: 50px;
+
+
+  }
+
+
+
+
 
 
   /* portfolio section bridPic*/
@@ -976,6 +1091,7 @@ ul.breadcrumb li a:hover {
     color:black;
     display:inline-block;
     margin-bottom:30px;
+    margin-right: 20px;
   }
 
   .duration1{
@@ -1602,6 +1718,7 @@ ul.breadcrumb li a:hover {
     }
 
 
+
     /* portfolio section white */
     .sectionportw{
       width: 100%;
@@ -1839,6 +1956,7 @@ ul.breadcrumb li a:hover {
       margin:0px 10px;
       letter-spacing: 2px;
       position: relative;
+
     }
 
     .badge{
@@ -2105,11 +2223,11 @@ ul.breadcrumb li a:hover {
     }
 
     .head1{
-      font-size: 16px;
+      font-size: 24px;
     }
 
     .head2{
-      font-size: 16px;
+      font-size: 24px;
     }
 
     .subimage{
@@ -2129,6 +2247,7 @@ ul.breadcrumb li a:hover {
     p{
       color:white;
     }
+
 
     /* portfolio section white */
     .sectionportw{

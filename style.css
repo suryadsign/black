@@ -1010,6 +1010,125 @@ ul.breadcrumb li a:hover {
   }
 
 
+  /* portfolio section eMudhra app*/
+  .sectionportemu{
+    width:100%;
+    height:auto;
+    margin:20px 0;
+    background-color: white;
+    font-family: 'Clash Grotesk', sans-serif;
+  }
+
+  .containerportemu{
+    padding:20px;
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+
+  .head1emu{
+    background:linear-gradient(to right, black , #F36F24);
+    font-size:24px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+  }
+
+  .head2emu{
+    background:linear-gradient(to right, #F36F24 , black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black;
+    font-size:24px;
+    font-weight:bolder;
+  }
+
+  .subhead1emu{
+    color:black;
+    font-size: 19px;
+  }
+
+  .subimageemu{
+    width:50%;
+    margin-top: 10px;
+    height:auto;
+  }
+
+  .containerportemu li{
+    color:black;
+    margin:10px 0;
+    text-align: left;
+    list-style: none;
+  }
+
+  p{
+    color:black;
+  }
+
+  .emudhraimg{
+    width:100%;
+    height:auto;
+    display:inline-block;
+    position:relative;
+  }
+
+
+  .titleemu{
+    font-size:24px;
+    background:linear-gradient(to right, black , #F36F24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bolder;
+    font-weight:bolder;
+    width: 60%;
+    margin:0 0 0 0;
+    display: inline-block;
+    position: relative;
+    height: auto;
+  }
+
+  .subtitleemu{
+    width:50%;
+    font-size:16px;
+    line-height: 20px;
+    color:black;
+  }
+
+
+  .containeremu{
+    height: auto;
+    margin: 0 auto 0 auto;
+    display:inline-flex;
+    align-items: center;
+  }
+
+  .container1emu{
+    width: 50%;
+    display:inline-block;
+    margin-top:20px;
+  }
+
+  .container2emu{
+    width: 50%;
+    display:inline-block;
+  }
+
+  .container3emu{
+    width: 50%;
+    display:inline-block;
+    margin-top:20px;
+    padding-right: 30px;
+    text-align: -webkit-right;
+  }
+
+  .container4emu{
+    width: 50%;
+    display:inline-block;
+    text-align: -webkit-right;
+    padding-right: 50px;
+  }
+
+
+
 
 
 
@@ -2001,6 +2120,111 @@ ul.breadcrumb li a:hover {
       text-align: -webkit-right;
     }
 
+    /* portfolio section eMudhra app*/
+    .sectionportemu{
+      width:100%;
+      height:auto;
+      margin:20px 0;
+      background-color: white;
+      font-family: 'Clash Grotesk', sans-serif;
+    }
+
+    .containerportemu{
+      padding: 10px 20px;
+      width: 90%;
+      margin: 0 auto 0 auto;
+    }
+
+    .head1emu{
+      background:linear-gradient(to right, black , #F36F24);
+      font-size:18px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight:bolder;
+    }
+
+    .head2emu{
+      background:linear-gradient(to right, #F36F24 , black);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color:black;
+      font-size:18px;
+      font-weight:bolder;
+    }
+
+    .subhead1emu{
+      color:black;
+      font-size: 16px;
+    }
+
+    .subimageemu{
+      width:50%;
+      margin-top: 10px;
+      height:auto;
+    }
+
+    .containerportemu li{
+      color:black;
+      margin:10px 0;
+      text-align: center;
+      list-style: none;
+    }
+
+    p{
+      color:black;
+    }
+
+    .emudhraimg{
+      width:100%;
+      height:auto;
+      display:inline-block;
+      position:relative;
+    }
+
+
+    .titleemu{
+      font-size:16px;
+      width:90%;
+    }
+
+    .subtitleemu{
+      width:90%;
+      line-height: 15px;
+      font-size:10px;
+      margin-top:0px;
+    }
+
+
+    .containeremu{
+      width:100%;
+      height: auto;
+      margin: 0 auto 0 auto;
+      display:inline-flex;
+      align-items: center;
+    }
+
+    .container1emu{
+      text-align: left;
+
+    }
+
+    .container2emu{
+      text-align: left;
+
+    }
+
+    .container3emu{
+      width: 80%;
+      display:inline-block;
+      margin-top:20px;
+      text-align: -webkit-right;
+    }
+
+    .container4emu{
+      padding-right: 20px;
+
+    }
+
 
 
   }
@@ -2616,6 +2840,111 @@ ul.breadcrumb li a:hover {
       width: 50%;
       text-align: -webkit-right;
     }
+
+    /* portfolio section eMudhra app*/
+    .sectionportemu{
+      width:100%;
+      height:auto;
+      margin:20px 0;
+      background-color: white;
+      font-family: 'Clash Grotesk', sans-serif;
+    }
+
+    .containerportemu{
+      padding:20px;
+      width: 90%;
+      margin: 0 auto 0 auto;
+    }
+
+    .head1emu{
+      background:linear-gradient(to right, black , #F36F24);
+      font-size:24px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight:bolder;
+    }
+
+    .head2emu{
+      background:linear-gradient(to right, #F36F24 , black);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color:black;
+      font-size:24px;
+      font-weight:bolder;
+    }
+
+    .subhead1emu{
+      color:black;
+      font-size: 16px;
+    }
+
+    .subimageemu{
+      width:50%;
+      margin-top: 10px;
+      height:auto;
+    }
+
+    .containerportemu li{
+      color:black;
+      margin:10px 0;
+      text-align: center;
+      list-style: none;
+    }
+
+    p{
+      color:black;
+    }
+
+    .emudhraimg{
+      width:100%;
+      height:auto;
+      display:inline-block;
+      position:relative;
+    }
+
+
+    .titleemu{
+      font-size:16px;
+    }
+
+    .subtitleemu{
+      font-size:12px;
+    }
+
+
+    .containeremu{
+      width:100%;
+      height: auto;
+      margin: 0 auto 0 auto;
+      display:inline-flex;
+      align-items: center;
+    }
+
+    .container1emu{
+      text-align: left;
+
+    }
+
+    .container2emu{
+      text-align: left;
+
+    }
+
+    .container3emu{
+      width: 50%;
+      display:inline-block;
+      margin-top:20px;
+      padding-right: 30px;
+      text-align: -webkit-right;
+    }
+
+    .container4emu{
+      width: 50%;
+      display:inline-block;
+      text-align: -webkit-right;
+      padding-right: 50px;
+    }
+
 
   }
 

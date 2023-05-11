@@ -1007,8 +1007,6 @@ ul.breadcrumb li a:hover {
     display:inline-block;
     text-align: -webkit-right;
     padding-right: 50px;
-
-
   }
 
 
@@ -1901,6 +1899,108 @@ ul.breadcrumb li a:hover {
     ul.breadcrumb {
       display: none;
     }
+
+    /* portfolio section emPartner*/
+    .sectionportem{
+      width:100%;
+      height:auto;
+      margin:20px 0;
+      font-family: 'Satoshi', sans-serif;
+    }
+
+    .containerportem{
+      padding:20px;
+      background-color:#2d2d2d;
+      width: 90%;
+      margin: 20px auto 20px auto;
+    }
+
+    .head1em{
+      color:#0070D2;
+      font-size:24px;
+      font-weight:bolder;
+    }
+
+    .head2em{
+      color:white;
+      font-size:18px;
+      font-weight:bolder;
+    }
+
+    .subhead1em{
+      color:white;
+      font-size: 12px;
+    }
+
+    .subimageem{
+      width:80%;
+      margin-top: 10px;
+      height:auto;
+    }
+
+    .containerportem li{
+      color:white;
+      margin:10px 0;
+      text-align: center;
+      list-style: none;
+    }
+
+    p{
+      color:white;
+    }
+
+    .partnerimg{
+      width:100%;
+      height:auto;
+      display:inline-block;
+      position:relative;
+    }
+
+
+    .titleem{
+      font-size:16px;
+      font-weight:bolder;
+      width: 90%;
+      margin:0 0 0 0;
+      display: inline-block;
+      position: relative;
+      height: auto;
+    }
+
+    .subtitleem{
+      width:90%;
+      font-size:12px;
+      line-height: 20px;
+    }
+
+
+    .containerem{
+      height: auto;
+      margin: 0 auto 0 auto;
+      display:inline-flex;
+      align-items: center;
+    }
+
+    .container1em{
+      width: 50%;
+      margin-top:20px;
+    }
+
+    .container2em{
+      width: 50%;
+      margin-left:20px;
+      text-align: left;
+    }
+
+    .container3em{
+      text-align: -webkit-right;
+    }
+
+    .container4em{
+      width: 50%;
+      text-align: -webkit-right;
+    }
+
 
 
   }

@@ -6,10 +6,7 @@ body{
   font-family: 'Satoshi', sans-serif;
   font-family: 'Clash Grotesk', sans-serif;
   font-family: 'Bebas Neue', sans-serif;
-  font-family: 'Britney', cursive;
-  font-family: 'Comico', cursive;
-  font-family: 'Quicksand', sans-serif;
-  background-color: #ffffff;
+  background-color: #272727;
 }
 
 
@@ -21,9 +18,9 @@ body{
   width: 40px;
   height: 40px;
   margin: -60px;
-  border: 6px solid #7a7a7a;
+  border: 6px solid #E1BBFF;
   border-radius:100px;
-  border-top: 6px solid black;
+  border-top: 6px solid #FF28B6;
   animation: spin 500ms linear infinite;
 }
 
@@ -72,8 +69,6 @@ body{
   opacity:1;
   filter: blur(0px);
   transform: translateY(0);
-  margin:20px 0;
-
 }
 
 .portfoliocard1:nth-child(1){
@@ -81,8 +76,7 @@ body{
 }
 
 .alien{
-  width: 80%;
-  margin: 30px auto;
+  margin-top: 30px;
 }
 
 
@@ -95,6 +89,30 @@ body{
   font-family: 'poppins',sans-serif;
 }
 
+.testimonial{
+  position: relative;
+  max-width: 950px;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #3d3d3d;
+}
+
+.testimonial .slide{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.testimonial .image{
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .slide p{
 padding: 0 160px;
 font-size: 12px;
@@ -105,27 +123,33 @@ width: 40px;
 height: auto;
 }
 
-
-.summary{
-  width: 80%;
-  margin:0 auto;
-display: flex;
+.personimage{
+  width: 100px;
+  height: auto;
 }
+
+.feedperson{
+  color:White;
+  font-weight: bold;
+}
+
+.feeddesign{
+  color:White;
+}
+
+/* .dot{
+  position:fixed;
+  left:150px;
+  opacity: 20%;
+  z-index: -1;
+} */
 
 .logodiv{
-  width: 30%;
-  text-align: left;
-  display: inline-flex;
-  }
-
-.menudiv{
-  left: 50%;
-  position: relative;
-  display: inline-flex;
+  display: inline-block;
+  padding-left: 15px;
 }
-
 .logo{
-  width:50px;
+  width:60px;
 }
 
 
@@ -138,11 +162,12 @@ display: flex;
   z-index: 200;
   background-color: black;
   cursor: pointer;
-  padding:6px 10px;
+  padding:10px 12px;
   border-radius: 40px;
   border:2px solid black;
   animation-name: fadetop;
   animation-duration: 2s;
+  /* box-shadow: 0px 5px 3px #ff7ab1; */
 }
 
 @keyframes fadetop {
@@ -152,7 +177,7 @@ display: flex;
 
 
 #myBtn:hover {
-  background-color: black;
+  background-color: #ff7ab1;
 }
 
 #myBtn img {
@@ -167,42 +192,54 @@ display: flex;
 
 .sidebar {
   margin-top: 0;
-  width: 100%;
-  padding: 20px 0px;
+  padding-top: 80px;
+  width: 15%;
+  padding-left: 20px;
   position: fixed;
+  height: 100%;
   animation-name: sidebar_d;
   animation-duration: 1s;
   overflow: auto;
-  z-index: 1;
-  background: rgba(255, 255, 255, 0.22);
-  backdrop-filter: blur(10.4px);
-  -webkit-backdrop-filter: blur(10.4px);
 }
 
 @keyframes sidebar_d {
-  0%  {top:-200px;}
-  100% {top:0px;}
+  0%  {left:-200px;}
+  100% {left:0px;}
+}
+
+.badge {
+  background-color: red;
+  font-family: 'poppins',sans-serif;
+  color: white;
+  padding: 4px 6px;
+  font-size: 8px;
+  position: relative;
+  font-weight: bold;
+  bottom:5px;
+  margin-left: 3px;
+  text-align: center;
+  border-radius: 2px;
+  letter-spacing: 0px;
 }
 
 .sidebar a {
   display: block;
-  color: black;
-  padding:16px 30px;
+  color: white;
+  padding:16px;
   text-decoration: none;
   text-align: left;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 2px;
 }
 
 .sidebar a.active {
-  color: black;
-  border:2px solid #2d2d2d;
+  color: #ff7ab1;
+  background-color:#2d2d2d;
   font-weight: bold;
-
 }
 
 .sidebar a:hover:not(.active) {
-  color: #2d2d2d;
+  color: #ff7ab1;
   opacity:50%;
 }
 
@@ -210,17 +247,17 @@ display: flex;
 
 a:link{
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
 a:hover{
   text-decoration: none;
-  color: #2d2d2d;
+  color: #ff7ab1;
 }
 
 a:visited{
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
 a:active{
@@ -253,8 +290,7 @@ a:active{
   /* Workspace edits */
 
   .workspace {
-    width:100%;
-    margin-top:80px;
+    width:82%;
     height:auto;
     position:relative;
     float: right;
@@ -265,27 +301,24 @@ a:active{
 
 
   .profile{
-    display: inline-flex;
+    display: inline;
   }
 
   .profileimage{
-    width:120px;
+    width:150px;
     height: auto;
     display: inline-block;
-    border-radius: 50%;
-
-  }
-
-  .profilesummary{
-    width:80%;
-    margin: 0px auto;
-    text-align: center;
   }
 
   .experience-description{
-    font-size: 24px;
-    text-align: center;
-    margin:0px auto;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width:auto;
+    width:50%;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    text-align: left;
+    color:#ffffff;
   }
 
   @keyframes workspace{
@@ -300,13 +333,54 @@ a:active{
     display: inline-block;
   }
 
+  .vl {
+    border-left: 3px solid black;
+    height:140px;
+    width:5px;
+    position: absolute;
+    opacity: 0%;
+  }
+
+  .hl {
+    width:92%;
+    height:2px;
+    background: black;
+    opacity: 10%;
+    height: 2px;
+  }
+
+  .name-head{
+    width: auto;
+    position: relative;
+    margin-top:0px;
+    left: 0;
+    bottom:10px;
+
+  }
+
+  .heading-name {
+    width:auto;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
+    color:#ffffff;
+  }
+
   #intro{
     margin-top:60px;
     height: auto;
     padding:10px;
-    width:80%;
-    margin:0 auto;
-    text-align: center;
+
+  }
+
+  .surya{
+    margin:20px 20px;
+    animation: 2s anim-lineUp ease-out infinite;
+    animation-delay: 1s;
+    font-weight:bold;
+    font-size:24px;
+    color:#af77ff;
+    margin:30px 0 0px 0;
   }
 
   @keyframes anim-lineUp {
@@ -321,9 +395,42 @@ a:active{
     }
   }
 
+
+  .designer{
+    width:auto;
+    animation: 2s anim-lineUp ease-out infinite;
+    animation-delay: 1s;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
+    margin:10px 0;
+    color:#ffffff;
+  }
+
+  /* About */
+
+  .experience{
+    color: #af77ff;
+    margin:10px 0 0 0;
+  }
+
+  .experience-date{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:0px;
+  }
+
+  .experience-history{
+    font-size: 24px;
+    width: auto;
+text-align: center;   color:#ff7ab1;
+  }
+
+
   .experiences-description{
     font-size: 12px;
-    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    padding:0px 0px 0px 0px;
     line-height: 20px;
     width:90%;
     margin:10px 0;
@@ -331,29 +438,84 @@ a:active{
     color:#ffffff;
   }
 
-  .surya{
-    margin:10px 0 0 0;
-    font-weight:bold;
-    font-size:48px;
-    font-family: 'Comico', cursive;
+  .experience-list {
+    padding:20px;
+    border-radius: 10px;
+    margin:10px 10px 10px 0;
+    width: 25%;
+    height:auto;
+    background-color: #303030;
+    display: inline-grid;
   }
+
+  .experience-designation{
+    margin:0px;
+  }
+  .education-list{
+    margin-top:30px;
+  }
+
+
+
 
   /* Portfolio */
 
+  #portfolioredirect
+  {
+    position: relative;
+    margin:10px 0;
+    display: inline;
+  }
+
+  #portfolioredirect:hover
+  {
+    position: relative;
+    left:5px;
+  }
+
+
+  .portfolio-history{
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin:0;
+    color:#ff7ab1;
+  }
+
+  #imgclick{
+    position: relative;
+    width:24px;
+    height:24px;
+    top:4px;
+  }
+
+
+  .button-interaction{
+    position:relative;
+    padding:10px 20px;
+    background-color: #ff7ab1;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    stroke:none;
+    font-weight: bold;
+    cursor:pointer;
+    text-align: center;
+  }
+
   .image{
-    width:auto;
+    width:300px;
     margin-bottom:0;
-    height:500px;
-    border-radius: 20px;
+    height:auto;
+    border-radius:0;
   }
 
   .image:hover{
-    transform: scale(105%);
+    transform: scale(95%);
     transition: 1s;
     z-index: -1;
-    overflow: hidden;
-    border-radius: 20px;
   }
+
 
   .bannerimages{
     width:80%;
@@ -361,25 +523,15 @@ a:active{
     height: auto;
   }
 
-  .portfolio{
-    height:500px;
-    width:100%;
-    margin: 20px 0;
-    display: inline-flex;
-    align-items: center;
+  .portfolio-hl{
+    border-left: 250px solid black;
+    opacity: 10%;
+    height: 1px;
   }
 
-  .portimage{
-    display: inline-block;
-    width: 50%;
-    overflow:hidden;
-    text-align: right
-  }
 
-  .portsummary{
-    display: inline-block;
-    width: 50%;
-    text-align: left;
+  .portfoliocards{
+    margin:10px auto 0 auto;
   }
 
   .portfoliocard1{
@@ -407,35 +559,124 @@ a:active{
 
 
   .portfolio-text{
-    font-size: 24px;
-    margin:10px 20px;
+    font-size: 12px;
+    margin:10px 0;
     line-height: 30px;
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Comico', cursive;
+    text-align: center;
+    display: none;
+    /* font-weight: bold; */
+    font-family: 'Poppins', sans-serif;
+
+
   }
 
-  .portfolio-subtext{
+  .portfolio-description {
     font-size: 16px;
-    margin:10px 20px;
-    line-height: 20px;
-    text-align: left;
+    line-height: 24px;
+    text-align:left;
+  }
+
+  .portfoliodesigns {
+    font-size:28px;
+    font-weight:bold;
+    color:#5D3891;
+  }
+
+  ul.breadcrumb {
+  padding: 10px 0px;
+  list-style: none;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  background-color:#272727;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+  color:white;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: white;
+  content: "/";
+}
+ul.breadcrumb li a {
+  color: #F74EC9;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color:white ;
+  text-decoration: underline;
+}
+
+
+  /* Contact */
+
+  .contact{
+    /* margin:10px 0 10px 0; */
+  }
+
+  .contact-list{
+    padding:15px 0 15px 0;
+    display:inline-block;
+  }
+
+  .contactimage{
+    width:24px;
+    height:24px;
+  }
+
+  .contacttext{
+    position: relative;
+  }
+
+  .contact-listview{
+    float: left;
+    margin: 0 10px 0 10px;
+  }
+
+  /* location */
+  .location1{
+    margin:-20px 0 10px 0;
+    line-height: 30px;
+  }
+
+  .location-list{
+    line-height: 20PX;
+  }
+
+
+
+
+  /* Overall Mark */
+  .overall{
+
   }
 
   .iconlist{
-    text-align: center;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    width:80%;
+    margin:20px 0 0 0;
   }
 
   .iconlist1{
-      display: inline-block;
-      margin:10px 0 20px 0;
-
+    margin:0px 10px 0 0;
+    display: inline-block;
   }
 
   .icon{
     width:50px;
     height:50px;
-    margin:0 10px;
+  }
+
+  .ratingtext{
+    display: inline-block;
+    margin:5px;
+    font-size: 14px;
+    position: relative;
+    bottom:20px;
+    color:#ffffff;
   }
 
   .overall-numbers{
@@ -477,6 +718,101 @@ a:active{
 
   }
 
+  /* skills */
+
+  /* table */
+  table {
+    margin:20px 0;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 88%;
+    color:white;
+    font-size: 14px;
+  }
+
+  th{
+    background-color: #2d2d2d;
+
+  }
+
+  th, td {
+    text-align: center;
+    padding: 8px;
+    width: 200px;
+  }
+
+  tr:nth-child(odd) {
+  }
+
+  .table-icon{
+    width:auto;
+    height:36px;
+  }
+
+
+  .hl1 {
+    border-left: 150px solid black;
+    opacity: 100%;
+    height: 2px;
+  }
+
+  .hl2 {
+    border-left: 100px solid black;
+    opacity: 100%;
+    height: 2px;
+  }
+
+  .hl3 {
+    border-left: 80px solid black;
+    opacity: 100%;
+    height: 2px;
+  }
+
+  .skills-numbers{
+    display: inline-block;
+    margin:0px;
+
+  }
+
+  .skills-list1{
+    height:auto;
+    padding:20px 20px 20px 20px;
+    width: 190px;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    position: relative;
+    margin:20px 10px 0px;
+    border: 1px solid #f6f6f6;
+    line-height: auto;
+    /* background-color: #0000; */
+    border-radius: 10px;
+
+  }
+
+  .skillslist1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:20px;
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+  }
+
+  .skillslist1-description{
+    margin:0px 0 0px 0;
+    position: absolute;
+    top:20px;
+    right:20px;
+    font-size: 24px;
+    color:#ffffff;
+  }
+
+  .skill-subhead{
+    font-size:18px;
+    margin-bottom:10px;
+  }
+
 
   /* portfoliodisplay
   */
@@ -487,14 +823,15 @@ a:active{
   }
 
   .copyright{
-    margin:20px auto 20px auto;
+    margin:20px auto 10px auto;
     font-size:10px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    z-index: 0;
+    color:white;
   }
 
   .iconpack{
-    text-align: center;
+    text-align: left;
   }
 
   .iconcategory{
@@ -513,11 +850,7 @@ a:active{
   }
 
   .iconimages{
-    height: 100px;
-  }
-
-  .iconimages img{
-    height: 40px;
+    height: 120px;
   }
 
   /* portfolio section Motoori*/
@@ -904,6 +1237,10 @@ a:active{
     margin:0;
   }
 
+  .porttext{
+    color:black;
+  }
+
 
   /* portfolio section Donate*/
   .sectionportd{
@@ -1060,24 +1397,27 @@ a:active{
     width:80%;
   }
 
+  .downloadresume{
+  }
 
   .downloadresume a{
-    padding:10px 30px;
+    padding:10px 40px;
     display: inline-block;
-    color:black;
-    border: 2px solid black;
+    color:white;
+    border-radius: 5px;
     font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
+    background-color:#58287F;
+    font-family: 'poppins', sans-serif;
+    transition:0.2s ease-in;
     text-align: center;
+    margin:20px 0;
   }
 
-  .external{
-    width: 18px;
-    height: auto;
-    position: relative;
-    top:5px;
-    left:5px;
+  .downloadresume a:hover{
+    background-color:#F010A4;
+    border:none;
   }
+
 
   /* Viewport */
   @media screen and (min-width:360px)and (max-width:539px){
@@ -1092,11 +1432,15 @@ a:active{
       z-index: 100;
       animation-name: sidebar_m;
       animation-duration: 1s;
+      background-color:#262626;
     }
 
-    .menudiv{
-      left:0;
-    }
+    /* .dot{
+      top:120px;
+      left: 20px;
+      opacity: 20%;
+      z-index: -1;
+    } */
 
     #loader {
       margin: -20px;
@@ -1114,11 +1458,14 @@ a:active{
     }
 
     .sidebar a {
+      color: white;
       display: inline-block;
       height: auto;
       padding:15px;
       text-decoration: none;
-      font-size: 12px;
+      text-align: center;
+      font-size: 14px;
+      margin:0px auto;
       position: relative;
       animation-name:menu_item;
       animation-duration: 1s;
@@ -1142,14 +1489,7 @@ a:active{
     }
 
     .profileimage{
-      width:100px;
       margin-bottom: 10px;
-    }
-
-    .experience-description{
-      font-size: 18px;
-      text-align: center;
-      margin:0px auto;
     }
 
     .logo{
@@ -1158,7 +1498,7 @@ a:active{
 
     .workspace{
       width: 100%;
-      margin:85px auto 0 auto;
+      margin:115px auto 0 auto;
       text-align: center;
       animation-name: workspace_m;
       animation-duration: 2s;
@@ -1170,41 +1510,53 @@ a:active{
     }
 
     #intro{
-      height: auto;
+      margin-top:20px;
     }
 
     .surya{
-      margin:0 0 10px 0;
+      margin:30px 0 0 0;
+      animation: 2s anim-lineUp ease-out infinite;
+      animation-delay: 1s;
       font-weight:bold;
-      font-size:34px;
+      font-size:16px;
+      color:#af77ff;
+      margin:25px` 0 10px 0;
     }
 
-    .portfolio{
-      width:80%;
-      margin: 20px auto;
-      display: inline;
-      align-items: center;
+
+    .designer{
+      width:auto;
+      font-size: 18px;
+      line-height: 30px;
+      position: relative;
+      margin:10px 0;
+      color:#ffffff;
     }
 
-    .portimage{
-      width: 80%;
+    a.portfoliocard1 {
+      margin-bottom:10px;
+      box-shadow: 0px 0px 1px white;
+      width:300px;
       overflow:hidden;
+
     }
 
-    .portsummary{
-      width: 80%;
+    .image{
+      width:300px;
+      margin-bottom:0;
+      height:auto;
+      border-radius:0;
+    }
+
+    .iconcategory{
+      width:40%;
+      height: auto;
       margin:10px 0;
     }
 
-
-    .image{
-      width:100%;
-      margin-bottom:0;
-      height:auto;
-      border-radius:20px;
-      padding: 10px 0;
+    .portfoliocards{
+      margin:30px 0;
     }
-
 
     .portfoliodesigns {
       width:80%;
@@ -1215,6 +1567,11 @@ a:active{
       width:360px;
       height:250px;
       margin:0 auto 0 auto;
+    }
+
+    .overall-numbers{
+      width:80%;
+      margin:30px auto 30px auto;
     }
 
     .iconpack{
@@ -1229,17 +1586,175 @@ a:active{
     }
 
     .iconlist1{
+      width:70%;
+      position: relative;
+      left:50px;
+    }
+
+    .ratingtext{
+      font-size: 12px;
+      position: relative;
+      bottom:15px;
     }
 
     .icon{
-      width:50px;
-      height:50px;
-      margin:10px 30px;
+      width:40px;
+      height:40px;
+    }
+
+    .numbers-list1{
+      width:80%;
+      margin:0 auto 0 auto;
+      position: relative;
+    }
+
+    .list1-description{
+      color:white;
+    }
+
+    .skills-numbers{
+      margin:0 auto 0 auto;
+    }
+
+    .skills-list1{
+      position: relative;
+      left:85px;
+      margin:10px 0;
     }
 
     .bannerimages{
       width:100%;
       height: auto;
+    }
+
+    table {
+      margin:10px auto;
+      border-collapse: separate;
+      width: 80%;
+      color:white;
+      font-size: 12px;
+    }
+
+    .table-icon{
+      width:auto;
+      height:24px;
+    }
+
+
+    .hl {
+      width:80%;
+      margin:0 auto 0 auto;
+      height:2px;
+      background: black;
+      opacity: 10%;
+      height: 2px;
+    }
+
+    .skill-subhead{
+      width: 80%;
+      margin:30px auto;
+
+    }
+
+    .skills{
+      margin:0px;
+    }
+
+    .numbers-list1{
+      width:90%;
+      margin: 0 auto 20px auto;
+    }
+
+    .list1-description{
+      color:white;
+    }
+
+    .heading-home{
+      padding:0px 0 0px 0;
+      width: 100%;
+    }
+    .education-history{
+      margin:10px 0;
+    }
+
+    .experience-description{
+      font-size: 12px;
+      font-family: 'Poppins', sans-serif;
+      width:80%;
+      padding:0px;
+      line-height: 20px;
+      margin:0 auto;
+      margin-bottom:10px;
+      text-align: center;
+      color:#ffffff;
+    }
+
+    .experiences-description{
+      font-size: 12px;
+      font-family: 'Poppins', sans-serif;
+      width:90%;
+      padding:0px 0px 0px 0px;
+      line-height: 20px;
+      margin:10px auto;
+      text-align: center;
+      color:#ffffff;
+    }
+
+    .experience-list{
+      margin:10px 0 10px 0;
+      line-height: 20px;
+      border:none;
+      width:70%;
+    }
+
+    .experience-designation{
+      margin:8px 0;
+    }
+
+    .experience-list1{
+      width:auto;
+      margin:5px auto 5px auto;
+      font-size:12px;
+      line-height: 25px;
+    }
+
+    .vl{
+      width:80%;
+      position: absolute;
+      left:40px;
+      top:60px;
+      margin:0 auto 0 auto;
+      border-top:3px solid black;
+      border-left:0px;
+    }
+
+
+    .heading-name{
+      line-height: auto;
+      font-size:12px;
+    }
+
+
+    .experience-history{
+      margin:20px auto 0px auto;
+      font-size:24px;
+    }
+
+    .name-head{
+      left:0px;
+      top:0px;
+      width:auto;
+      position: relative;
+    }
+
+    .contact-listview{
+      float:none;
+      margin-bottom: 40px;
+    }
+
+    .socialmedia-listview{
+      float:left;
+      margin-bottom: 20px;
     }
 
     .UX-banner{
@@ -1258,6 +1773,9 @@ a:active{
       width: 100%;
       margin:0 auto;
     }
+    .vl{
+      opacity:100%;
+    }
 
     .copyright{
       width: 80%;
@@ -1265,6 +1783,8 @@ a:active{
       font:12px;
       font-family: 'Poppins', sans-serif;
       text-align: center;
+      color:#ffffff;
+
     }
 
 
@@ -1483,15 +2003,16 @@ a:active{
       opacity:1;
       filter: blur(0px);
       transform: translateX(0);
-      margin:20px 0;
     }
 
     .downloadresume a{
-      border:2px solid black;
+      background-color:#58287F;
+      border:none;
       text-align: center;
+      font-family: 'poppins',sans-serif;
     }
-
     .downloadresume{
+      margin-bottom: 20px;
     }
 
     ul.breadcrumb {
@@ -1714,7 +2235,9 @@ a:active{
   /* Viewport */
   @media screen and (min-width:540px)and (max-width:800px){
     .sidebar {
+      padding-top:30px;
       width:100%;
+      padding-left: 0px;
       height: auto;
       position: fixed;
       text-align: center;
@@ -1722,24 +2245,15 @@ a:active{
       animation-name: sidebar_t;
       animation-duration: 1s;
       display: block;
+      background-color:#262626;
     }
 
-    .profilesummary{
-      margin:0 auto 20px auto;
-    }
-
-    .summary{
-
-    }
-
-    .logodiv{
-
-    }
-
-    .menudiv{
-      left:0;
-    }
-
+    /* .dot{
+      top:120px;
+      left: 100px;
+      opacity: 20%;
+      z-index: -1;
+    } */
 
     #loader{
       margin: -20px;
@@ -1756,21 +2270,27 @@ a:active{
     }
 
     .sidebar a {
+      color: white;
       display: inline-block;
       height: auto;
-      padding:16px 20px;
+      padding:20px;
       text-decoration: none;
       text-align: center;
-      font-size: 12px;
+      font-size: 16px;
       margin:0px 10px;
       letter-spacing: 2px;
       position: relative;
 
     }
 
+    .badge{
+      position: relative;
+      bottom:1px;
+    }
+
     .workspace{
       width: 100%;
-      margin:100px auto 0 auto;
+      margin:135px auto 0 auto;
       text-align: center;
       animation-duration:1s;
     }
@@ -1795,51 +2315,36 @@ a:active{
     }
 
     .profileimage{
-      width: 100px;
       margin-bottom: 10px;
     }
 
-    .image{
-      width:100%;
-      margin-bottom:0;
-      height:auto;
-      border-radius:20px;
-      padding: 10px 0;
-
-    }
-
-    .experience-description{
-      font-size: 18px;
+    .iconlist{
       text-align: center;
-      margin:0px auto;
-    }
-
-
-    .portfolio{
-      width:80%;
-      margin: 20px auto;
-      display: inline;
-      align-items: center;
-    }
-
-    .portimage{
-      width: 80%;
-      overflow:hidden;
-    }
-
-    .portsummary{
-      width: 80%;
-    }
-
-    .iconlist1{
-      margin:10px auto;
       display:inline;
     }
 
+
+    .ratingtext{
+      font-size: 12px;
+      position: relative;
+      bottom:15px;
+    }
+
     .icon{
-      width:50px;
-      height:50px;
-      margin:0 5px;
+      width:60px;
+      height:60px;
+    }
+
+    .iconcategory{
+      width:40%;
+      height: auto;
+      margin:20px
+    }
+
+    .iconpack{
+      margin:0 auto 0 auto;
+      width:80%;
+      text-align:center;
     }
 
     a.portfoliocard1 {
@@ -1847,10 +2352,26 @@ a:active{
       box-shadow: 0px 0px 1px white;
     }
 
+    .portfoliocards{
+      margin:30px 0;
+    }
+
     .overall-numbers{
       margin:30px auto;
     }
 
+
+    .skills-numbers{
+      width: 80%;
+      margin:0 auto 0 auto;
+    }
+
+    .skills-list1{
+      width:30%;
+      margin:10px 20px;
+      position: relative;
+
+    }
 
     .UX-banner{
       width:100%;
@@ -1863,14 +2384,116 @@ a:active{
       height: auto;
     }
 
+    .hl {
+      width:80%;
+      margin:0 auto 0 auto;
+      height:2px;
+      background: black;
+      opacity: 10%;
+      height: 2px;
+    }
+
+    .skill-subhead{
+      width: 100%;
+      margin:30px auto;
+
+    }
+
+    .skills{
+      margin:0px;
+    }
+
+    table {
+      margin:10px auto;
+      border-collapse: separate;
+      width: 90%;
+      color:white;
+      font-size: 14px;
+    }
+
+    .table-icon{
+      width:auto;
+      height:30px;
+    }
+
+    .numbers-list1{
+      width: 80%;
+      margin: 20px auto 0 auto;
+    }
+
+    .list1-description{
+      color:white;
+    }
+
+    .heading-home{
+      padding:0 0 0 0;
+      width: 100%;
+    }
+
+    .heading-name{
+      width:auto;
+      line-height: 40px;
+      margin:10px auto;
+    }
+
     #intro{
       width:80%;
       margin:0px auto;
     }
 
     .surya{
-      font-size:33px;
-      margin:20px 0 0 0;
+      margin:20px 0;
+      animation: 2s anim-lineUp ease-out infinite;
+      animation-delay: 1s;
+      font-weight:bold;
+      font-size:20px;
+      color:#af77ff;
+      margin:50px 0 10px 0;
+    }
+
+    .name-head{
+      left:0px;
+      top:0;
+      width:auto;
+      position: relative;
+    }
+
+    .UX-banner{
+      margin-top:0;
+    }
+
+    .experience-list{
+      margin:10px 0 10px 0;
+      line-height: 20px;
+      border:none;
+      width: 60%;
+    }
+
+    .experience-designation{
+      margin:5px 0;
+    }
+
+
+    .experience-description{
+      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+      width:100%;
+      padding:0px 0px 0px 0px;
+      line-height: 25px;
+      margin: 0 0 10px 10px;
+      text-align: center;
+      color:#ffffff;
+    }
+
+    .experiences-description{
+      font-size: 12px;
+      font-family: 'Poppins', sans-serif;
+      width:90%;
+      padding:0px 0px 0px 0px;
+      line-height: 20px;
+      margin:10px auto;
+      text-align: center;
+      color:#ffffff;
     }
 
     .button-interaction{
@@ -1886,6 +2509,12 @@ a:active{
     }
 
     .copyright{
+      width: 80%;
+      margin:20px auto 20px auto;
+      font-size:10px;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      color:#ffffff;
 
     }
 
@@ -1904,6 +2533,7 @@ a:active{
     }
 
     .containerport{
+      background-color:#2d2d2d;
       width: 80%;
       text-align: left;
       padding:20px;
@@ -2091,11 +2721,14 @@ a:active{
       opacity:1;
       filter: blur(0px);
       transform: translateY(0);
-      margin:20px 0;
     }
 
     .downloadresume a{
+      background-color:#58287F;
+      border:none;
       width:80%;
+      text-align: center;
+      font-family: 'poppins',sans-serif;
     }
     .downloadresume{
       width:100%;
@@ -2319,6 +2952,11 @@ a:active{
 
 
   @media screen and (min-width:396px)and (max-width:540px){
+    .skills-list1{
+      position: relative;
+      width:50%;
+      margin:10px auto;
+    }
 
     .logodiv{
       width:100%;
